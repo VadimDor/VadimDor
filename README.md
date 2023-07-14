@@ -1,5 +1,7 @@
 [![Skylines](/Special/GitHub_Skyline/Skyline.png 'My Skyline')](https://skyline.github.com/vadimdor/2017/)
 
+<img src="/Special/GitHub_Skyline/Skyline.png"  width="600" height="200">
+
 ### Hi there 👋
 
 <!--
