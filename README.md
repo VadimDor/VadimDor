@@ -186,8 +186,6 @@ My GitHub skyline (via [skyline.github.com](https://skyline.github.com))
 
 [View skyline 2018 via GitHub skyline](https://skyline.github.com/vadimdor/2018/)
 
-[View STL file](/Special/GitHub_Skyline/2018/vadimdor-2018.stl)
-
 </detials>
 
 ## Skyline 2019
@@ -197,8 +195,6 @@ My GitHub skyline (via [skyline.github.com](https://skyline.github.com))
 
 [View skyline 2019 via GitHub skyline](https://skyline.github.com/vadimdor/2019/)
 
-[View STL file](/Special/GitHub_Skyline/2019/vadimdor-2019.stl)
-
 </detials>
 
 ## Skyline 2020
@@ -207,8 +203,6 @@ My GitHub skyline (via [skyline.github.com](https://skyline.github.com))
 
 [View skyline 2020 via GitHub skyline](https://skyline.github.com/vadimdor/2020/)
 
-[View STL file](/Special/GitHub_Skyline/2020/vadimdor-2020.stl)
-
 </details>
 
 ## Skyline 2021
@@ -216,8 +210,6 @@ My GitHub skyline (via [skyline.github.com](https://skyline.github.com))
 <details open><summary><p><b>[Click/tap here to expand/collapse this section]</b></p></summary>
 
 [View skyline 2021 via GitHub skyline](https://skyline.github.com/vadimdor/2021/)
-
-[View STL file](/Special/GitHub_Skyline/2021/vadimdor-2021.stl)
 
 </details>
 
