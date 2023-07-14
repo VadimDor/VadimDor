@@ -1,7 +1,8 @@
 <a href="https://skyline.github.com/vadimdor/2017/">
 <img src="/Special/GitHub_Skyline/dubai.png"  width="100%" height="20%"><img src="/Special/GitHub_Skyline/Skyline-w.png"  width="100%" height="20%"></a><div align="center">☝️ clickable/tappable activity statistic ☝️</div>
 
-<div></div>
+<div>.</div><p>.<p><br>
+
 <details><summary>:eyes: More statictic is there (Click/tap here to expand/collapse)</summary>
   
 ## Skyline 2017
