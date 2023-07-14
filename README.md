@@ -1,5 +1,5 @@
 <img src="/Special/GitHub_Skyline/dubai.png"  width="100%" height="20%"><img src="/Special/GitHub_Skyline/Skyline-w.png"  width="100%" height="20%">
-^^^^ It is a clickable/tappable statistic of activity ^^^^
+<div align="center">^^ It is a clickable/tappable statistic of activity ^^</div>
 ### Hi there 👋
 
 
@@ -29,9 +29,9 @@ Here are some ideas to get you started:
 
 <details open><summary><p lang="en">Click/tap here to expand/collapse this section</p></summary>
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-34-orange.svg?style=flat-square)](#contributors-) ![Profile views](https://komarev.com/ghpvc/?username=vadimdor) 
-
 <div align="center">
+
+[![All Contributors](https://img.shields.io/badge/all_contributors-34-orange.svg?style=flat-square)](#contributors-) ![Profile views](https://komarev.com/ghpvc/?username=vadimdor) 
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=vadimdor&theme=highcontrast)](https://git.io/streak-stats) 
 
