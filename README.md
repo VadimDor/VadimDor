@@ -32,11 +32,13 @@ Here are some ideas to get you started:
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=vadimdor&theme=highcontrast)](https://git.io/streak-stats) 
 
 Customizing stats card
+
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=vadimdor&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&theme=transparent)
 
 
 Customizing stats card2
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=vadimdor\&show_icons=true\&title_color=fff\&icon_color=79ff97\&text_color=9f9f9f\&bg_color=151515&show_icons=true&theme=transparent)
+
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=vadimdor\&show_icons=true\&title_color=fff\&icon_color=79ff97\&text_color=9f9f9f\&bg_color=151515&show_icons=true)
 
 Stati6 compact
 
