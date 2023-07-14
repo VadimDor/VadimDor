@@ -40,14 +40,17 @@ Here are some ideas to get you started:
 <sup> This particular card tends to not always load upon loading my profile. Refresh to fix it if it shows up as a blue link. </sup>
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=compact)](https://github.com/anuraghazra/github-readme-stats) 
+
 The left column shows my top 5 languages. They are more accurate than the new counter on most days.
 
 [![Dark](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-dark-mode-only) 
 
 [![Source repository for new GitHub stats](https://github.com/vadimdor/VadimDor/)]
+
 <sub>There are some problems with the data set, you should read the docs for further information. Common problems include: the numbers going down when they should be going up, not all data being represented (only the past 365 days of activity)</sub> 
 
 [![Statictics light mode](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-light-mode-only)]
+
 [![Dark mode](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-dark-mode-only)]
 
 [![Generate Stats Images](https://github.com/vadimdor/VadimDor/actions/workflows/generate_github_stats_a.yml/badge.svg)](https://github.com/vadimdor/VadimDor/actions/workflows/generate_github_stats_a.yml)
@@ -64,33 +67,59 @@ The left column shows my top 5 languages. They are more accurate than the new co
 </details>
 
 Stati1
+
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=vadimdor&repo=vadimdor)](https://github.com/anuraghazra/github-readme-stats)
+
 Stati2
+
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor)](https://github.com/anuraghazra/github-readme-stats)
+
 Stati3
+
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&size_weight=0.5&count_weight=0.5)
+
 Stati4
+
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&hide=javascript,html)
+
 Stati5
+
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&langs_count=8)
+
 Stati6
+
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=compact)
+
 Stati7
+
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
+
 Stati8
+
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=donut-vertical)](https://github.com/anuraghazra/github-readme-stats)
+
 Stati9
+
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=pie)](https://github.com/anuraghazra/github-readme-stats)
+
 Stati10
+
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&hide_progress=true)
+
 Stati111
+
 [![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=vadimdor)](https://github.com/anuraghazra/github-readme-stats)
+
 Stati12
+
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=vadimdor&show_icons=true&theme=transparent)
+
 Stati13
+
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=vadimdor&show_icons=true&bg_color=00000000)
 
 *   Compact layout
+
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor\&layout=compact)
 ![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=vadimdor\&hide_progress=true)
 
