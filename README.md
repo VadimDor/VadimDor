@@ -1,4 +1,5 @@
-<img src="/Special/GitHub_Skyline/dubai.png"  width="100%" height="20%"><img src="/Special/GitHub_Skyline/Skyline-w.png"  width="100%" height="20%"><div align="center">☝️ clickable/tappable activity statistic ☝️</div>
+<a href="https://skyline.github.com/vadimdor/2017/">
+<img src="/Special/GitHub_Skyline/dubai.png"  width="100%" height="20%"><img src="/Special/GitHub_Skyline/Skyline-w.png"  width="100%" height="20%"></a><div align="center">☝️ clickable/tappable activity statistic ☝️</div>
 
 ### Hi there 👋
 
