@@ -21,7 +21,7 @@
 </table>
 ```
 
-[JSON](https://github.com/vadimdor/vadimdor/tree/master/.github/AllContributorsrc/JSON/V1.all-contributorsrc.json)
+[JSON](https://github.com/vadimdor/vadimdor/tree/main/.github/AllContributorsrc/JSON/V1.all-contributorsrc.json)
 
 ```json
 {
