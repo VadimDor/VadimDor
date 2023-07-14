@@ -36,11 +36,12 @@ Stati13
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=vadimdor&show_icons=true&bg_color=00000000)
 
+[![vadimdor's GitHub stats](https://github-readme-stats.vercel.app/api?username=vadimdor)]
+
 ![ Dark](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/overview.svg#gh-dark-mode-only) 
 
 ![Light](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/overview.svg#gh-light-mode-only) 
 
-[![vadimdor's GitHub stats](https://github-readme-stats.vercel.app/api?username=vadimdor)](https://github.com/anuraghazra/github-readme-stats) 
 
 <font size=”1”> This particular card tends to not always load upon loading my profile. Refresh to fix it if it shows up as a blue link. </font>
 
