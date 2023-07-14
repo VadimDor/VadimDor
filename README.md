@@ -1,4 +1,5 @@
 <img src="/Special/GitHub_Skyline/dubai.png"  width="100%" height="20%"><img src="/Special/GitHub_Skyline/Skyline-w.png"  width="100%" height="20%">
+^^^^ It is a clickable/tappable statistic of activity ^^^^
 ### Hi there 👋
 
 
@@ -30,11 +31,15 @@ Here are some ideas to get you started:
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-34-orange.svg?style=flat-square)](#contributors-) ![Profile views](https://komarev.com/ghpvc/?username=vadimdor) 
 
+<div align="center">
+
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=vadimdor&theme=highcontrast)](https://git.io/streak-stats) 
 
 ![VadimDor's GitHub stats](https://github-readme-stats.vercel.app/api/?username=vadimdor&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=000000&show_icons=true)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=compact&size_weight=0.5&count_weight=0.5&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=000000&show_icons=true)
+
+</div>
 
 Stati15
 
