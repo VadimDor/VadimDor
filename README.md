@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+![Skylines ](/Special/GitHub_Skyline/Skyline.png "My Skylines")
+
 <!--
 **VadimDor/VadimDor** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -31,13 +33,17 @@ Here are some ideas to get you started:
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=vadimdor&theme=highcontrast)](https://git.io/streak-stats) 
 
+Stati13
+
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=vadimdor&show_icons=true&bg_color=00000000)
+
 ![ Dark](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/overview.svg#gh-dark-mode-only) 
 
 ![Light](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/overview.svg#gh-light-mode-only) 
 
 [![vadimdor's GitHub stats](https://github-readme-stats.vercel.app/api?username=vadimdor)](https://github.com/anuraghazra/github-readme-stats) 
 
-<sup> This particular card tends to not always load upon loading my profile. Refresh to fix it if it shows up as a blue link. </sup>
+<font size=”1”> This particular card tends to not always load upon loading my profile. Refresh to fix it if it shows up as a blue link. </font>
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=compact)](https://github.com/anuraghazra/github-readme-stats) 
 
@@ -114,9 +120,7 @@ Stati12
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=vadimdor&show_icons=true&theme=transparent)
 
-Stati13
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=vadimdor&show_icons=true&bg_color=00000000)
 
 *   Compact layout
 
@@ -159,15 +163,6 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 </details>
 
 
-
-
-<!-- The new statistics have not been working since 2023, December 13th (as of 2023, Saturday, January 21st) here are the record statistics:
-
-| 2023, December 12th stats | 2023, December 12th languages |
-|---|---|
-| ![2023.12.12 Stats](https://github.com/vadimdor/VadimDor/blob/main/Seasons/6/SVG/Overview_GitHubStatsA_2023December12th.svg) | ![2023.12.12 languages](https://github.com/vadimdor/VadimDor/blob/main/Seasons/6/SVG/Languages_GitHubStatsA_2023December12th.svg) |
-!-->
-
 Stat1
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-32-orange.svg?style=flat-square)](#contributors-) 
@@ -176,9 +171,6 @@ Stat2
 
 ![Profile views](https://komarev.com/ghpvc/?username=vadimdor) 
 
-Stat3
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=vadimdor&theme=highcontrast)](https://git.io/streak-stats) 
 
 Stat4
 
