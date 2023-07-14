@@ -38,7 +38,7 @@ Here are some ideas to get you started:
 
 ![VadimDor's GitHub stats](https://github-readme-stats.vercel.app/api/?username=vadimdor&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=000000&show_icons=true)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=compact&size_weight=0.5&count_weight=0.5&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=000000&show_icons=true)]((https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&size_weight=0.5&count_weight=0.5&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=000000&show_icons=true))
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=compact&size_weight=0.5&count_weight=0.5&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=000000&show_icons=true)](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&size_weight=0.5&count_weight=0.5&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=000000&show_icons=true)
 
 </div>
 
