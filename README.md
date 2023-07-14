@@ -1,7 +1,6 @@
 [![Skylines](/Special/GitHub_Skyline/dubai.png 'My Skyline')](https://skyline.github.com/vadimdor/2017/)
 [![Skylines](/Special/GitHub_Skyline/Skyline.png 'My Skyline')](https://skyline.github.com/vadimdor/2017/)
 
-<img src="/Special/GitHub_Skyline/Skyline-w.png"  width="100%" height="20%">
 
 ### Hi there 👋
 
