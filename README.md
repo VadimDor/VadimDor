@@ -1,5 +1,5 @@
 <img src="/Special/GitHub_Skyline/dubai.png"  width="100%" height="20%"><img src="/Special/GitHub_Skyline/Skyline-w.png"  width="100%" height="20%">
-<div align="center">^^ It is a clickable/tappable statistic of activity ^^</div>
+<div align="center">^^☝️- clickable/tappable statistic -☝️^^</div>
 ### Hi there 👋
 
 
