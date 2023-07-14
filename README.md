@@ -121,6 +121,7 @@ Stati13
 *   Compact layout
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor\&layout=compact)
+
 ![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=vadimdor\&hide_progress=true)
 
 *   Compact layout 2
@@ -168,23 +169,41 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 !-->
 
 Stat1
-[![All Contributors](https://img.shields.io/badge/all_contributors-32-orange.svg?style=flat-square)](#contributors-) - This counter was added on 2021 December 29th
+
+[![All Contributors](https://img.shields.io/badge/all_contributors-32-orange.svg?style=flat-square)](#contributors-) 
+
 Stat2
-![Profile views](https://komarev.com/ghpvc/?username=vadimdor) - This counter was added on 2021 December 29th
+
+![Profile views](https://komarev.com/ghpvc/?username=vadimdor) 
+
 Stat3
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=vadimdor&theme=highcontrast)](https://git.io/streak-stats) - This counter was added on 2021 December 29th
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=vadimdor&theme=highcontrast)](https://git.io/streak-stats) 
+
 Stat4
-[![VadimDor's GitHub stats](https://github-readme-stats.vercel.app/api?username=vadimdor)](https://github.com/anuraghazra/github-readme-stats) - This counter was added on 2021 December 29th
+
+[![VadimDor's GitHub stats](https://github-readme-stats.vercel.app/api?username=vadimdor)](https://github.com/anuraghazra/github-readme-stats) 
+
 Stat5
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=compact)](https://github.com/anuraghazra/github-readme-stats) - This counter was added on 2021 December 30th
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=compact)](https://github.com/anuraghazra/github-readme-stats) 
+
 Stat6
+
 ![](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/overview.svg#gh-dark-mode-only)
+
 Stat7
+
 ![](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/overview.svg#gh-light-mode-only)
+
 Stat8
+
 ![](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-dark-mode-only)
+
 ![](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-light-mode-only)
-Stat9
+
+ 
+
 ###### Overview statistics
 Stat10
 <details open><summary><p><b>[Click/tap here to expand/collapse this section]</b></p></summary>
