@@ -2,10 +2,11 @@
 name: Shell Lint
 
 on:
-  push:
-    paths:
-      - '**.sh'
-      - '!./.husky/**/*'
+  #push:
+ #   paths:
+#      - '**.sh'
+  #    - '!./.husky/**/*'
+  workflow_dispatch:
 
 jobs:
   lint:

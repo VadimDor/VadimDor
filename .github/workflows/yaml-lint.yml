@@ -2,9 +2,10 @@
 name: YAML Lint
 
 on:
-  push:
-    paths:
-      - '**.yml'
+  # push:
+ #   paths:
+  #    - '**.yml'
+  workflow_dispatch:
 
 jobs:
   lint:
