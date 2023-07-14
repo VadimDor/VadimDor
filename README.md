@@ -1,6 +1,14 @@
 ### Hi there 👋
-
+<iframe src="https://skyline.github.com/vadimdor/2021/">
 ![Skylines ](/Special/GitHub_Skyline/Skyline.png "My Skylines")
+</iframe>
+<iframe src="https://skyline.github.com/vadimdor/2021/">
+</iframe>
+<iframe src="Special/GitHub_Skyline/2021/VadimDor-2021.stl">
+</iframe>
+<iframe >
+[View STL file](Special/GitHub_Skyline/2021/VadimDor-2021.stl)
+</iframe>
 
 <!--
 **VadimDor/VadimDor** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -235,38 +243,7 @@ Full statistics are available at [:octocat: `VadimDor`](https://github.com/vadim
 ---
 
 
-## Repository of the day (coming soon)
-
-<details open><summary><p><b>[Click/tap here to expand/collapse this section]</b></p></summary>
-
-I have plans to make a featured Repoitory of the Day table here, but it would require a lot of time with GitHub workflows, and determining which repositories should be featured.
-
-**Plans:**
-
-<details><summary><p><b>[Click/tap here to expand/collapse this section]</b></p></summary>
-
-```
-Top 6 projects of the day @vadimdor/vadimdor
-
-2,190 (normal year) to 2,196 (leap year) repos per year
-
-GitHub action that automatically updates this list
-```
-
-</details>
-
-<details open><summary><p><b>[Click/tap here to expand/collapse this section]</b></p></summary>
-
-
-
-</details>
-
-These will be the featured repositories for the time being.
-
-</details>
-
 ***
-
 
 ## Sponsor info
 
