@@ -35,40 +35,18 @@ Here are some ideas to get you started:
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=compact&size_weight=0.5&count_weight=0.5&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=000000&show_icons=true)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=compact&size_weight=0.5&count_weight=0.5)
-
-Stati 13
- 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=vadimdor&show_icons=true&bg_color=00000000)
-
-Stati14
-
-[![vadimdor's GitHub stats](https://github-readme-stats.vercel.app/api?username=vadimdor)]
-
 Stati15
 
-![ Dark](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/overview.svg#gh-dark-mode-only) 
-
-Stati16
-
+![Dark ](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/overview.svg#gh-dark-mode-only) 
 ![Light](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/overview.svg#gh-light-mode-only) 
+![Dark lang ](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-dark-mode-only)
+![Light lang](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-light-mode-only)
 
 
-<font size=”1”> This particular card tends to not always load upon loading my profile. Refresh to fix it if it shows up as a blue link. </font>
+<font size="1"> This particular card tends to not always load upon loading my profile. Refresh to fix it if it shows up as a blue link. </font>
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=compact)](https://github.com/anuraghazra/github-readme-stats) 
 
-The left column shows my top 5 languages. They are more accurate than the new counter on most days.
-
-[![Dark](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-dark-mode-only) 
-
-[![Source repository for new GitHub stats](https://github.com/vadimdor/VadimDor/)]
-
-<sub>There are some problems with the data set, you should read the docs for further information. Common problems include: the numbers going down when they should be going up, not all data being represented (only the past 365 days of activity)</sub> 
-
-[![Statictics light mode](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-light-mode-only)]
-
-[![Dark mode](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-dark-mode-only)]
 
 [![Generate Stats Images](https://github.com/vadimdor/VadimDor/actions/workflows/generate_github_stats_a.yml/badge.svg)](https://github.com/vadimdor/VadimDor/actions/workflows/generate_github_stats_a.yml)
 
@@ -87,64 +65,23 @@ Stati1 only this repo
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=vadimdor&repo=vadimdor)](https://github.com/anuraghazra/github-readme-stats)
 
-Stati2 normal
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor)](https://github.com/anuraghazra/github-readme-stats)
-
-Stati3 weights 0,5
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&size_weight=0.5&count_weight=0.5)
-
-Stati4 without javascript html
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&hide=javascript,html)
-
-Stati5 top 8
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&langs_count=8)
-
-
-
-Stati7 donut
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
-
-Stati8 vertical donut
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=donut-vertical)](https://github.com/anuraghazra/github-readme-stats)
-
-Stati9 pie
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=pie)](https://github.com/anuraghazra/github-readme-stats)
- 
-Stati10  hide progress
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&hide_progress=true)
 
 Stati11 wakatime
 
 [![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=vadimdor)](https://github.com/anuraghazra/github-readme-stats)
 
-Stati12 transpar
-
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=vadimdor&show_icons=true&theme=transparent)
-
-
-
-*   Compact layout
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor\&layout=compact)
-
 wakatime hide progress
 
 ![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=vadimdor&hide_progress=true)
 
-*   Compact layout 2
+Compact layout 2
+
 ![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=vadimdor\&layout=compact)
 
 
 
-*   Customizing repo card
+Customizing repo card
+
 ![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=vadimdor\&repo=github-readme-stats\&title_color=fff\&icon_color=f9f9f9\&text_color=9f9f9f\&bg_color=151515)
 
 ## Quick Tip (Align The Cards)
@@ -172,77 +109,7 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 
 </details>
 
-
-Stat1 all contribs
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-32-orange.svg?style=flat-square)](#contributors-) 
-
-Stat2 profile views
-
-![Profile views](https://komarev.com/ghpvc/?username=vadimdor) 
-
-
-Stat4  
-
-[![VadimDor's GitHub stats](https://github-readme-stats.vercel.app/api?username=vadimdor)](https://github.com/anuraghazra/github-readme-stats) 
-
-Stat5 compact
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=compact)](https://github.com/anuraghazra/github-readme-stats) 
-
-Stat6 generated dark  overview
-
-![](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/overview.svg#gh-dark-mode-only)
-
- generated light overview
-
-![](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/overview.svg#gh-light-mode-only)
-
-Stat8generated dark languaages
-
-![](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-dark-mode-only)
-
-generated light languages
-
-![](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-light-mode-only)
-
- 
-
-###### Overview statistics
-Stat10
-<details open><summary><p><b>[Click/tap here to expand/collapse this section]</b></p></summary>
-
-<details open><summary><p><b>[Click/tap here to expand/collapse this table]</b></p></summary>
-
-| Best of 2023 (as of 2023, May 20th) (overview) | (languages) |
-|---|---|
-| ![2023.05.20 Stats](https://github.com/vadimdor/VadimDor/blob/main/Seasons/11/SVG/overview_2023May20th.svg) | ![2023.05.20 languages](https://github.com/vadimdor/VadimDor/blob/main/Seasons/11/SVG/languages_2023May20th.svg) |
-
-</details>
-
-<details><summary><p><b>[Click/tap here to expand/collapse this table]</b></p></summary>
-
-| Best of 2023 (as of 2023, February 28th, first run this year) (overview) | (languages) |
-|---|---|
-| ![2023.02.28 Stats](https://github.com/vadimdor/VadimDor/blob/main/Seasons/8/SVG/Overview_GitHubStatsA_2023February28th.svg) | ![2023.02.28 languages](https://github.com/vadimdor/VadimDor/blob/main/Seasons/8/SVG/Languages_GitHubStatsA_2023February28th.svg) |
-
-</details>
-
-<details open><summary><p><b>[Click/tap here to expand/collapse this table]</b></p></summary>
-
-| Best of 2023 (as of 2023, December 12th) (overview) | (languages) |
-|---|---|
-![2023.12.12 Stats](https://github.com/vadimdor/VadimDor/blob/main/Seasons/6/SVG/Overview_GitHubStatsA_2023December12th.svg) | ![2023.12.12 languages](https://github.com/vadimdor/VadimDor/blob/main/Seasons/6/SVG/Languages_GitHubStatsA_2023December12th.svg) |
-
-</details>
-
-Full statistics are available at [:octocat: `VadimDor`](https://github.com/vadimdor/VadimDor/)
-
-</details>
-
 ---
-
-
 ***
 
 ## Sponsor info
