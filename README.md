@@ -31,22 +31,8 @@ Here are some ideas to get you started:
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=vadimdor&theme=highcontrast)](https://git.io/streak-stats) 
 ![VadimDor's GitHub stats](https://github-readme-stats.vercel.app/api/?username=vadimdor&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=000000&show_icons=true)
-
-
-<a href="https://git.io/streak-stats">
-  <img height=200 align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=vadimdor&theme=highcontrast" />
-</a>
-
-<a href="https://github-readme-stats.vercel.app/api/?username=vadimdor&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515&show_icons=true">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/?username=vadimdor&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515&show_icons=true&card_width=100%" />
-</a>
-
-
-
-Stati6 compact
-
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=compact&size_weight=0.5&count_weight=0.5&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=000000&show_icons=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=compact&size_weight=0.5&count_weight=0.5)
-
 Stati13
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=vadimdor&show_icons=true&bg_color=00000000)
