@@ -72,51 +72,51 @@ The left column shows my top 5 languages. They are more accurate than the new co
 </a>
 </details>
 
-Stati1
+Stati1 only this repo
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=vadimdor&repo=vadimdor)](https://github.com/anuraghazra/github-readme-stats)
 
-Stati2
+Stati2 normal
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor)](https://github.com/anuraghazra/github-readme-stats)
 
-Stati3
+Stati3 weights 0,5
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&size_weight=0.5&count_weight=0.5)
 
-Stati4
+Stati4 without javascript html
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&hide=javascript,html)
 
-Stati5
+Stati5 top 8
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&langs_count=8)
 
-Stati6
+Stati6 compact
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=compact)
 
-Stati7
+Stati7 donut
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
 
-Stati8
+Stati8 vertical donut
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=donut-vertical)](https://github.com/anuraghazra/github-readme-stats)
 
-Stati9
+Stati9 pie
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=pie)](https://github.com/anuraghazra/github-readme-stats)
-
-Stati10
+ 
+Stati10  hide progress
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&hide_progress=true)
 
-Stati111
+Stati11 wakatime
 
 [![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=vadimdor)](https://github.com/anuraghazra/github-readme-stats)
 
-Stati12
+Stati12 transpar
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=vadimdor&show_icons=true&theme=transparent)
 
@@ -126,7 +126,9 @@ Stati12
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor\&layout=compact)
 
-![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=vadimdor\&hide_progress=true)
+wakatime hide progress
+
+![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=vadimdor&hide_progress=true)
 
 *   Compact layout 2
 ![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=vadimdor\&layout=compact)
@@ -163,34 +165,36 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 </details>
 
 
-Stat1
+Stat1 all contribs
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-32-orange.svg?style=flat-square)](#contributors-) 
 
-Stat2
+Stat2 profile views
 
 ![Profile views](https://komarev.com/ghpvc/?username=vadimdor) 
 
 
-Stat4
+Stat4  
 
 [![VadimDor's GitHub stats](https://github-readme-stats.vercel.app/api?username=vadimdor)](https://github.com/anuraghazra/github-readme-stats) 
 
-Stat5
+Stat5 compact
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=compact)](https://github.com/anuraghazra/github-readme-stats) 
 
-Stat6
+Stat6 generated dark  overview
 
 ![](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/overview.svg#gh-dark-mode-only)
 
-Stat7
+ generated light overview
 
 ![](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/overview.svg#gh-light-mode-only)
 
-Stat8
+Stat8generated dark languaages
 
 ![](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-dark-mode-only)
+
+generated light languages
 
 ![](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-light-mode-only)
 
