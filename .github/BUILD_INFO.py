@@ -7,7 +7,7 @@ Build information file for this project
 # This file has not yet been tested
 def englishBuildInfo():
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -27,7 +27,7 @@ def spanishBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -48,7 +48,7 @@ def esperantoBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -69,7 +69,7 @@ def frenchBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -90,7 +90,7 @@ def germanBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -111,7 +111,7 @@ def japaneseBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -132,7 +132,7 @@ def russianBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -153,7 +153,7 @@ def arabicBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -174,7 +174,7 @@ def portugueseBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -195,7 +195,7 @@ def greekBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -216,7 +216,7 @@ def italianBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -237,7 +237,7 @@ def swedishBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -258,7 +258,7 @@ def persianBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -279,7 +279,7 @@ def dutchBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -300,7 +300,7 @@ def traditionalChineseBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -321,7 +321,7 @@ def simplifiedChineseBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -342,7 +342,7 @@ def southKoreanBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -363,7 +363,7 @@ def northKoreanBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -384,7 +384,7 @@ def hebrewBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -405,7 +405,7 @@ def polishBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -426,7 +426,7 @@ def latinBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -447,7 +447,7 @@ def georgianBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -468,7 +468,7 @@ def hawaiianBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -489,7 +489,7 @@ def hindiBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -510,7 +510,7 @@ def teluguBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -531,7 +531,7 @@ def indonesianBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -552,7 +552,7 @@ def estonianBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -573,7 +573,7 @@ def swahiliBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -594,7 +594,7 @@ def serbianBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -615,7 +615,7 @@ def czechBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -636,7 +636,7 @@ def catalanBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -657,7 +657,7 @@ def bulgarianBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -678,7 +678,7 @@ def turkishBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -699,7 +699,7 @@ def thaiBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -723,7 +723,7 @@ def uzbekBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -744,7 +744,7 @@ def kurdishBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -765,7 +765,7 @@ def urduBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -786,7 +786,7 @@ def vietnameseBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -807,7 +807,7 @@ def welshBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -828,7 +828,7 @@ def yiddishBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -849,7 +849,7 @@ def yorubaBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -870,7 +870,7 @@ def zuluBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -891,7 +891,7 @@ def punjabiBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -912,7 +912,7 @@ def bengaliBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -933,7 +933,7 @@ def tamilBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -954,7 +954,7 @@ def tatarBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -975,7 +975,7 @@ def odiaBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -996,7 +996,7 @@ def sindhiBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -1017,7 +1017,7 @@ def danishBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -1038,7 +1038,7 @@ def norwegianBuildInfo():
   # Coming soon
   '''
   print("Build information")
-  print("For: Seanpm2001/Seanpm2001")
+  print("For: VadimDor/VadimDor")
   languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
   print("\nLanguages: " + str(languageList))
   print("\nPython version: 3.6 and up")
@@ -1229,7 +1229,7 @@ Not all intended languages are supported yet
 File info
 
 File type: Python source file (*.py)
-File version: 1 (2022, Friday, January 7th at 5:57 pm)
+File version: 1 (2023, Friday, January 7th at 5:57 pm)
 Line count (including blank lines and compiler line): 1,237
 File language: English (US)
 """

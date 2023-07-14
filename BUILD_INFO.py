@@ -107,7 +107,7 @@ def germanBuildInfo():
   print("\nEnd of info")
   '''
   break
-def russianBuildInfo():
+  def russianBuildInfo():
   # Coming soon
   '''
   print("Build information")

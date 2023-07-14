@@ -1,0 +1,125 @@
+# Start of script
+# I am going to keep trying on this until I get it right
+# @vadimdor is the global code owner for this project
+/// @vadimdor
+/ @vadimdor
+/* @vadimdor
+* @vadimdor
+# Directories at root
+/.github/ @vadimdor
+/DailyStatus/ @vadimdor
+/Extermal/ @vadimdor
+/External/ @vadimdor
+/External_Commits/ @vadimdor
+/FFTechSupport/Jan22/ @vadimdor
+/FunStuff/ @vadimdor
+/GitHub_Commits/ @vadimdor
+/Inspiration/MediaWiki/August2021/ @vadimdor
+/JumpingText/ @vadimdor
+/Kiosk/Family-Kiosk/2020/September/2nd/ @vadimdor
+/Media/ @vadimdor
+/Notes/ @vadimdor
+/OldVersions/ @vadimdor
+/Sandbox/ @vadimdor
+/Schedule/ @vadimdor
+/Special/ @vadimdor
+# Files at root
+/.editorconfig @vadimdor
+/.gitattributes @vadimdor
+/.gitignore @vadimdor
+/AUTHORS @vadimdor
+/CITATION.cff @vadimdor
+/CONTRIBUTING.md @vadimdor
+/COPYINGL @vadimdor
+/CREDITS @vadimdor
+/DRM-free_label.en.svg @vadimdor
+/INSTALL @vadimdor
+/K.desktop @vadimdor
+/LICENSE.txt @vadimdor
+/PROJECT_LANG_1.py @vadimdor
+/PROJECT_LANG_2.html @vadimdor
+/README.md @vadimdor
+/SECURITY.md @vadimdor
+/SponsorButton.png @vadimdor
+/desktop.ini @vadimdor
+/makefile.mk @vadimdor
+/.readme_update_plans.md @vadimdor
+/SeniorPhotoFullQuality.jpeg @vadimdor
+/SECURITY.md @vadimdor
+# Individual file types
+*.txt @vadimdor
+*.jpg @vadimdor
+*.JPG @vadimdor
+*.JPEG @vadimdor
+*.jpeg @vadimdor
+*.PNG @vadimdor
+*.gif @vadimdor
+*.GIF @vadimdor
+*.md @vadimdor
+*.mkd @vadimdor
+*.mdown @vadimdor
+*.markdown @vadimdor
+*.e @vadimdor
+*.png @vadimdor
+*.bib @vadimdor
+*.cff @vadimdor
+*.svg @vadimdor
+*.bib @vadimdor
+*.mk @vadimdor
+*.mak @vadimdor
+*.make @vadimdor
+*.yml @vadimdor
+*.YAML @vadimdor
+*.srt @vadimdor
+*.ogg @vadimdor
+*.mp3 @vadimdor
+*.mp4 @vadimdor
+*.mkv @vadimdor
+*.oga @vadimdor
+*.wmv @vadimdor
+*.txt @vadimdor
+*.xspf @vadimdor
+*.json @vadimdor
+*.htm @vadimdor
+*.html @vadimdor
+*.aiff @vadimdor
+*.alac @vadimdor
+*.flac @vadimdor
+*.m4a @vadimdor
+*.sh @vadimdor
+*.desktop @vadimdor
+*.zip @vadimdor
+*.rar @vadimdor
+*.webm @vadimdor
+*.webp @vadimdor
+*.doc @vadimdor
+*.docx @vadimdor
+*.odt @vadimdor
+*.tmp @vadimdor
+*.csv @vadimdor
+*.CSV @vadimdor
+*.rb @vadimdor
+*.RB @vadimdor
+*.py @vadimdor
+*.PY @vadimdor
+*.htm @vadimdor
+*.html @vadimdor
+*.mhtm @vadimdor
+*.mhtml @vadimdor
+*.xhtm @vadimdor
+*.xhtml @vadimdor
+*.HTM @vadimdor
+*.HTML @vadimdor
+*.MHTM @vadimdor
+*.MHTML @vadimdor
+*.XHTM @vadimdor
+*.XHTML @vadimdor
+*.gemspec @vadimdor
+*.tex @vadimdor
+*.TEX @vadimdor
+# No more individual file types for now
+# File info
+# File type: codeowners file (CODEOWNERS)
+# File version: 1 (2023, Wednesday, December 29th at 5:20 pm)
+# Line count (including blank lines and compiler line): 126
+# End of script
