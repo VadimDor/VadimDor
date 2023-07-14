@@ -1,5 +1,5 @@
 [![Skylines](/Special/GitHub_Skyline/dubai.png 'My Skyline')](https://skyline.github.com/vadimdor/2017/)
-[![Skylines](/Special/GitHub_Skyline/Skyline.png 'My Skyline')](https://skyline.github.com/vadimdor/2017/)
+[![Skylines](/Special/GitHub_Skyline/Skyline-w.png 'My Skyline')](https://skyline.github.com/vadimdor/2017/)
 
 
 ### Hi there 👋
