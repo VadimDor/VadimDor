@@ -1,20 +1,6 @@
+[![Skylines](/Special/GitHub_Skyline/Skyline.png 'My Skyline')](https://skyline.github.com/vadimdor/2017/)
+
 ### Hi there 👋
-
-<iframe src="https://skyline.github.com/vadimdor/2021/">
- ![Skylines ](/Special/GitHub_Skyline/Skyline.png "My Skylines")
-</iframe>
-
-<iframe src="https://skyline.github.com/vadimdor/2021/">
-</iframe>
-
-<iframe src="Special/GitHub_Skyline/2021/VadimDor-2021.stl">
-</iframe>
-
-<iframe >
- [View STL file](Special/GitHub_Skyline/2021/VadimDor-2021.stl)
-</iframe>
-
-[![Skylines SOft](/Special/GitHub_Skyline/Skyline.png 'My Skyline')](https://skyline.github.com/vadimdor/2021/)
 
 <!--
 **VadimDor/VadimDor** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -30,7 +16,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-36-orange.svg?style=flat-square)](#contributors-)
