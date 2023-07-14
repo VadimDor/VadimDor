@@ -175,7 +175,7 @@ My GitHub skyline (via [skyline.github.com](https://skyline.github.com))
 
 [View skyline 2017 via GitHub skyline](https://skyline.github.com/vadimdor/2017/)
 
-[View STL file](/Special/GitHub_Skyline/2019/vadimdor-2017.stl)
+[View STL file](/Special/GitHub_Skyline/2017/vadimdor-2017.stl)
 
 </detials>
 
