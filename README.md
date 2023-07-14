@@ -1,6 +1,8 @@
 <img src="/Special/GitHub_Skyline/dubai.png"  width="100%" height="20%"><img src="/Special/GitHub_Skyline/Skyline-w.png"  width="100%" height="20%">
 ### Hi there 👋
 
+<script src="https://gist.github.com/VadimDor/8b437f60d3e3126075a900cc2a54eaba.js"></script>
+
 <!--
 **VadimDor/VadimDor** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -41,11 +43,6 @@ Stati15
 ![Light](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/overview.svg#gh-light-mode-only) 
 ![Dark lang ](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-dark-mode-only)
 ![Light lang](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-light-mode-only)
-
-
-<font size="1"> This particular card tends to not always load upon loading my profile. Refresh to fix it if it shows up as a blue link. </font>
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=compact)](https://github.com/anuraghazra/github-readme-stats) 
 
 
 [![Generate Stats Images](https://github.com/vadimdor/VadimDor/actions/workflows/generate_github_stats_a.yml/badge.svg)](https://github.com/vadimdor/VadimDor/actions/workflows/generate_github_stats_a.yml)
