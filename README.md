@@ -32,9 +32,9 @@ Here are some ideas to get you started:
 | GitHub Stats (classic, added on 2021 December 29th) | GitHub Stats (new, improved, added on 2023 June 12th) |
 |---|---|
 | [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=vadimdor&theme=highcontrast)](https://git.io/streak-stats) | ![](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/overview.svg#gh-dark-mode-only) ![](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/overview.svg#gh-light-mode-only) |
-| [![vadimdor's GitHub stats](https://github-readme-stats.vercel.app/api?username=vadimdor)](https://github.com/anuraghazra/github-readme-stats) | The left column shows my older GitHub statistics. They may be more accurate than the new stats. This particular card tends to not always load upon loading my profile. Refresh to fix it if it shows up as a blue link. |
+| [![vadimdor's GitHub stats](https://github-readme-stats.vercel.app/api?username=vadimdor)](https://github.com/anuraghazra/github-readme-stats) | <sup>The left column shows my older GitHub statistics. They may be more accurate than the new stats. This particular card tends to not always load upon loading my profile. Refresh to fix it if it shows up as a blue link. </sup>|
 | [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=compact)](https://github.com/anuraghazra/github-readme-stats) | The left column shows my top 5 languages. They are more accurate than the new counter on most days. |
-| <!--![](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-dark-mode-only)!--> [Source repository for new GitHub stats](https://github.com/vadimdor/VadimDor/) There are some problems with the data set, you should read the docs for further information. Common problems include: the numbers going down when they should be going up, not all data being represented (only the past 365 days of activity) | ![Statictics light mode](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-light-mode-only) ![Dark mode](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-dark-mode-only) |
+| <!--![](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-dark-mode-only)!--> [Source repository for new GitHub stats](https://github.com/vadimdor/VadimDor/) <sub>There are some problems with the data set, you should read the docs for further information. Common problems include: the numbers going down when they should be going up, not all data being represented (only the past 365 days of activity)</sub> | ![Statictics light mode](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-light-mode-only) ![Dark mode](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-dark-mode-only) |
 
 [![Generate Stats Images](https://github.com/vadimdor/VadimDor/actions/workflows/generate_github_stats_a.yml/badge.svg)](https://github.com/vadimdor/VadimDor/actions/workflows/generate_github_stats_a.yml)
 
@@ -49,38 +49,44 @@ Here are some ideas to get you started:
 </a>
 
 </details>
-
+* Stati1
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=vadimdor&repo=vadimdor)](https://github.com/anuraghazra/github-readme-stats)
-
+* Stati2
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor)](https://github.com/anuraghazra/github-readme-stats)
-
+* Stati3
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&size_weight=0.5&count_weight=0.5)
-
+* Stati4
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&hide=javascript,html)
-
+* Stati5
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&langs_count=8)
-
+* Stati6
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=compact)
+* Stati7
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
+* Stati8
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=donut-vertical)](https://github.com/anuraghazra/github-readme-stats)
+* Stati9
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=pie)](https://github.com/anuraghazra/github-readme-stats)
+* Stati10
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&hide_progress=true)
+* Stati111
 [![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=vadimdor)](https://github.com/anuraghazra/github-readme-stats)
+* Stati12
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=vadimdor&show_icons=true&theme=transparent)
+* Stati13
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=vadimdor&show_icons=true&bg_color=00000000)
-*   Compact layout
 
+*   Compact layout
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor\&layout=compact)
 ![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=vadimdor\&hide_progress=true)
 
-*   Compact layout
-
+*   Compact layout 2
 ![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=vadimdor\&layout=compact)
+
 *   Customizing stats card
-
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=vadimdor\&show_icons=true\&title_color=fff\&icon_color=79ff97\&text_color=9f9f9f\&bg_color=151515)
-*   Customizing repo card
 
+*   Customizing repo card
 ![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=vadimdor\&repo=github-readme-stats\&title_color=fff\&icon_color=f9f9f9\&text_color=9f9f9f\&bg_color=151515)
 
 ## Quick Tip (Align The Cards)
@@ -92,6 +98,7 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=vadimdor" />
 </a>
+
 <a href="https://github.com/anuraghazra/convoychat">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=vadimdor&layout=compact&langs_count=8&card_width=320" />
 </a>
@@ -117,25 +124,26 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 | ![2023.12.12 Stats](https://github.com/vadimdor/VadimDor/blob/main/Seasons/6/SVG/Overview_GitHubStatsA_2023December12th.svg) | ![2023.12.12 languages](https://github.com/vadimdor/VadimDor/blob/main/Seasons/6/SVG/Languages_GitHubStatsA_2023December12th.svg) |
 !-->
 
-
+* Stat1
 [![All Contributors](https://img.shields.io/badge/all_contributors-32-orange.svg?style=flat-square)](#contributors-) - This counter was added on 2021 December 29th
-
+* Stat2
 ![Profile views](https://komarev.com/ghpvc/?username=vadimdor) - This counter was added on 2021 December 29th
-
+* Stat3
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=vadimdor&theme=highcontrast)](https://git.io/streak-stats) - This counter was added on 2021 December 29th
-
+* Stat4
 [![VadimDor's GitHub stats](https://github-readme-stats.vercel.app/api?username=vadimdor)](https://github.com/anuraghazra/github-readme-stats) - This counter was added on 2021 December 29th
-
+* Stat5
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=compact)](https://github.com/anuraghazra/github-readme-stats) - This counter was added on 2021 December 30th
-
+* Stat6
 ![](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/overview.svg#gh-dark-mode-only)
+* Stat7
 ![](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/overview.svg#gh-light-mode-only)
-
+* Stat8
 ![](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-dark-mode-only)
 ![](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-light-mode-only)
-
+* Stat9
 ###### Overview statistics
-
+* Stat10
 <details open><summary><p><b>[Click/tap here to expand/collapse this section]</b></p></summary>
 
 <details open><summary><p><b>[Click/tap here to expand/collapse this table]</b></p></summary>
@@ -254,15 +262,11 @@ Try it out! The sponsor button is right up next to the watch/unwatch button.
 
 ### Skyline
 
-<details open><summary><p><b>[Click/tap here to expand/collapse this section]</b></p></summary>
-
-My GitHub skyline (via [skyline.github.com](https://skyline.github.com))
-
-<details><summary><H3>[Click/tap here to expand/collapse the GitHub skyline data list]</H3></summary>
+<details><summary>:eyes: Show example (Click/tap here to expand/collapse)</summary>
   
 ## Skyline 2017
 
-<details open><summary><p><b>[Click/tap here to expand/collapse this section]</b></p></summary>
+<details open><summary>:eyes: Show example (Click/tap here to expand/collapse)</summary>
 
 [View skyline 2017 via GitHub skyline](https://skyline.github.com/vadimdor/2017/)
 
@@ -272,7 +276,7 @@ My GitHub skyline (via [skyline.github.com](https://skyline.github.com))
 
 ## Skyline 2018
 
-<details open><summary><p><b>[Click/tap here to expand/collapse this section]</b></p></summary>
+<details><summary>:eyes: Show example (Click/tap here to expand/collapse)</summary>
 
 
 [View skyline 2018 via GitHub skyline](https://skyline.github.com/vadimdor/2018/)
@@ -281,7 +285,7 @@ My GitHub skyline (via [skyline.github.com](https://skyline.github.com))
 
 ## Skyline 2019
 
-<details open><summary><p><b>[Click/tap here to expand/collapse this section]</b></p></summary>
+<details><summary>:eyes: Show example (Click/tap here to expand/collapse)</summary>
 
 
 [View skyline 2019 via GitHub skyline](https://skyline.github.com/vadimdor/2019/)
@@ -290,7 +294,7 @@ My GitHub skyline (via [skyline.github.com](https://skyline.github.com))
 
 ## Skyline 2020
 
-<details open><summary><p><b>[Click/tap here to expand/collapse this section]</b></p></summary>
+<details><summary>:eyes: Show example (Click/tap here to expand/collapse)</summary>
 
 [View skyline 2020 via GitHub skyline](https://skyline.github.com/vadimdor/2020/)
 
@@ -298,33 +302,22 @@ My GitHub skyline (via [skyline.github.com](https://skyline.github.com))
 
 ## Skyline 2021
 
-<details open><summary><p><b>[Click/tap here to expand/collapse this section]</b></p></summary>
+<details><summary>:eyes: Show example (Click/tap here to expand/collapse)</summary>
 
-[View skyline 2021 via GitHub skyline](https://skyline.github.com/vadimdor/2021/)
-[View STL file](Special/GitHub_Skyline/2021/VadimDor-2021.stl)
+[View skyline 2021 via GitHub skyline](https://skyline.github.com/vadimdor/2021/)  |  [View STL file](Special/GitHub_Skyline/2021/VadimDor-2021.stl)
 </details>
 
 ## Skyline 2022
-
-<details open><summary><p><b>[Click/tap here to expand/collapse this section]</b></p></summary>
-
-[View skyline 2023 via GitHub skyline](https://skyline.github.com/vadimdor/2022/)
-[View STL file](Special/GitHub_Skyline/2022/VadimDor-2022.stl)
-
-</details>
+It was no time for some creative
 
 ## Skyline 2023
 
-<details open><summary><p><b>[Click/tap here to expand/collapse this section]</b></p></summary>
+<details open><summary>:eyes: Show example (Click/tap here to expand/collapse)</summary>
 
-[View skyline 2023 via GitHub skyline](https://skyline.github.com/vadimdor/2023/)
-
-[View STL file (coming soon)]
-
+[View skyline 2023 via GitHub skyline](https://skyline.github.com/vadimdor/2023/) | [View STL file (coming soon)]
 </details> <!-- End of Skyline 2023 !-->
 
 </details> <!-- End of Skyline data list !-->
-
 </details> <!-- End of skyline section !-->
 
 ***
