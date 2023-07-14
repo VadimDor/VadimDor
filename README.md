@@ -57,8 +57,12 @@ It was no time for some creative
 [View skyline 2023 via GitHub skyline](https://skyline.github.com/vadimdor/2023/) | [View STL file (coming soon)]
 </details> <!-- End of Skyline 2023 !-->
 
+</details>
+</details>
+</details>
+</details>
 </details> <!-- End of Skyline data list !-->
- <!-- End of skyline section !-->
+ </details><!-- End of skyline section !-->
 
 
 ### Hi there 👋
