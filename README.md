@@ -36,9 +36,15 @@ Stati13
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=vadimdor&show_icons=true&bg_color=00000000)
 
+Stati14
+
 [![vadimdor's GitHub stats](https://github-readme-stats.vercel.app/api?username=vadimdor)]
 
+Stati15
+
 ![ Dark](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/overview.svg#gh-dark-mode-only) 
+
+Stati16
 
 ![Light](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/overview.svg#gh-light-mode-only) 
 
