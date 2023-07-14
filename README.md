@@ -30,7 +30,7 @@ Here are some ideas to get you started:
 [![All Contributors](https://img.shields.io/badge/all_contributors-34-orange.svg?style=flat-square)](#contributors-) ![Profile views](https://komarev.com/ghpvc/?username=vadimdor) 
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=vadimdor&theme=highcontrast)](https://git.io/streak-stats) 
-![VadimDor's GitHub stats](https://github-readme-stats.vercel.app/api/?username=vadimdor&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515&show_icons=true)
+![VadimDor's GitHub stats](https://github-readme-stats.vercel.app/api/?username=vadimdor&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=000000&show_icons=true)
 
 
 <a href="https://git.io/streak-stats">
@@ -38,7 +38,7 @@ Here are some ideas to get you started:
 </a>
 
 <a href="https://github-readme-stats.vercel.app/api/?username=vadimdor&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515&show_icons=true">
-  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/?username=vadimdor&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515&show_icons=true&card_width=320" />
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/?username=vadimdor&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515&show_icons=true&card_width=100%" />
 </a>
 
 
