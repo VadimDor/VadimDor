@@ -90,3 +90,6 @@
 # File version: 7 (2023, Friday, January 7th at 6:03 pm)
 # Line count (including blank lines and compiler line): 93
 # End of script
+
+data export-ignore
+generated export-ignore

@@ -31,16 +31,90 @@ Here are some ideas to get you started:
 
 | GitHub Stats (classic, added on 2021 December 29th) | GitHub Stats (new, improved, added on 2023 June 12th) |
 |---|---|
-| [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=vadimdor&theme=highcontrast)](https://git.io/streak-stats) | ![](https://raw.githubusercontent.com/vadimdor/GitHub_Stats_A/main/generated/overview.svg#gh-dark-mode-only) ![](https://raw.githubusercontent.com/vadimdor/GitHub_Stats_A/main/generated/overview.svg#gh-light-mode-only) |
+| [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=vadimdor&theme=highcontrast)](https://git.io/streak-stats) | ![](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/overview.svg#gh-dark-mode-only) ![](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/overview.svg#gh-light-mode-only) |
 | [![vadimdor's GitHub stats](https://github-readme-stats.vercel.app/api?username=vadimdor)](https://github.com/anuraghazra/github-readme-stats) | The left column shows my older GitHub statistics. They may be more accurate than the new stats. This particular card tends to not always load upon loading my profile. Refresh to fix it if it shows up as a blue link. |
 | [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=compact)](https://github.com/anuraghazra/github-readme-stats) | The left column shows my top 5 languages. They are more accurate than the new counter on most days. |
-| <!--![](https://raw.githubusercontent.com/vadimdor/GitHub_Stats_A/main/generated/languages.svg#gh-dark-mode-only)!--> [Source repository for new GitHub stats](https://github.com/vadimdor/GitHub_Stats_A/) There are some problems with the data set, you should read the docs for further information. Common problems include: the numbers going down when they should be going up, not all data being represented (only the past 365 days of activity) | ![](https://raw.githubusercontent.com/vadimdor/GitHub_Stats_A/main/generated/languages.svg#gh-light-mode-only) ![](https://raw.githubusercontent.com/vadimdor/GitHub_Stats_A/main/generated/languages.svg#gh-dark-mode-only) |
+| <!--![](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-dark-mode-only)!--> [Source repository for new GitHub stats](https://github.com/vadimdor/VadimDor/) There are some problems with the data set, you should read the docs for further information. Common problems include: the numbers going down when they should be going up, not all data being represented (only the past 365 days of activity) | ![Statictics light mode](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-light-mode-only) ![Dark mode](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-dark-mode-only) |
+
+[![Generate Stats Images](https://github.com/vadimdor/VadimDor/actions/workflows/generate_github_stats_a.yml/badge.svg)](https://github.com/vadimdor/VadimDor/actions/workflows/generate_github_stats_a.yml)
+
+
+<details open><summary><p><b>Click/tap here to expand/collapse the current stable workflow images</b></p></summary>
+
+<a href="https://github.com/jstrieb/github-stats">
+<img src="https://github.com/vadimdor/VadimDor/blob/main/generated/overview.svg#gh-dark-mode-only" />
+<img src="https://github.com/vadimdor/VadimDor/blob/main/generated/languages.svg#gh-dark-mode-only" />
+<img src="https://github.com/vadimdor/VadimDor/blob/main/generated/overview.svg#gh-light-mode-only" />
+<img src="https://github.com/vadimdor/VadimDor/blob/main/generated/languages.svg#gh-light-mode-only" />
+</a>
+
+</details>
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=vadimdor&repo=vadimdor)](https://github.com/anuraghazra/github-readme-stats)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor)](https://github.com/anuraghazra/github-readme-stats)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&size_weight=0.5&count_weight=0.5)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&hide=javascript,html)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&langs_count=8)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=compact)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=donut-vertical)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=pie)](https://github.com/anuraghazra/github-readme-stats)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&hide_progress=true)
+[![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=vadimdor)](https://github.com/anuraghazra/github-readme-stats)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=vadimdor&show_icons=true&theme=transparent)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=vadimdor&show_icons=true&bg_color=00000000)
+*   Compact layout
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor\&layout=compact)
+![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=vadimdor\&hide_progress=true)
+
+*   Compact layout
+
+![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=vadimdor\&layout=compact)
+*   Customizing stats card
+
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=vadimdor\&show_icons=true\&title_color=fff\&icon_color=79ff97\&text_color=9f9f9f\&bg_color=151515)
+*   Customizing repo card
+
+![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=vadimdor\&repo=github-readme-stats\&title_color=fff\&icon_color=f9f9f9\&text_color=9f9f9f\&bg_color=151515)
+
+## Quick Tip (Align The Cards)
+
+By default, GitHub does not lay out the cards side by side. To do that, you can use this approach:
+<details>
+<summary>:eyes: Show example</summary>
+
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=vadimdor" />
+</a>
+<a href="https://github.com/anuraghazra/convoychat">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=vadimdor&layout=compact&langs_count=8&card_width=320" />
+</a>
+
+***
+
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=vadimdor&repo=github-readme-stats" />
+</a>
+<a href="https://github.com/anuraghazra/convoychat">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=vadimdor&repo=convoychat" />
+</a>
+
+</details>
+
+
+
 
 <!-- The new statistics have not been working since 2023, December 13th (as of 2023, Saturday, January 21st) here are the record statistics:
 
 | 2023, December 12th stats | 2023, December 12th languages |
 |---|---|
-| ![2023.12.12 Stats](https://github.com/vadimdor/GitHub_Stats_A/blob/main/Seasons/6/SVG/Overview_GitHubStatsA_2023December12th.svg) | ![2023.12.12 languages](https://github.com/vadimdor/GitHub_Stats_A/blob/main/Seasons/6/SVG/Languages_GitHubStatsA_2023December12th.svg) |
+| ![2023.12.12 Stats](https://github.com/vadimdor/VadimDor/blob/main/Seasons/6/SVG/Overview_GitHubStatsA_2023December12th.svg) | ![2023.12.12 languages](https://github.com/vadimdor/VadimDor/blob/main/Seasons/6/SVG/Languages_GitHubStatsA_2023December12th.svg) |
 !-->
 
 
@@ -54,11 +128,11 @@ Here are some ideas to get you started:
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=compact)](https://github.com/anuraghazra/github-readme-stats) - This counter was added on 2021 December 30th
 
-![](https://raw.githubusercontent.com/username/github-stats/master/generated/overview.svg#gh-dark-mode-only)
-![](https://raw.githubusercontent.com/username/github-stats/master/generated/overview.svg#gh-light-mode-only)
+![](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/overview.svg#gh-dark-mode-only)
+![](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/overview.svg#gh-light-mode-only)
 
-![](https://raw.githubusercontent.com/username/github-stats/master/generated/languages.svg#gh-dark-mode-only)
-![](https://raw.githubusercontent.com/username/github-stats/master/generated/languages.svg#gh-light-mode-only)
+![](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-dark-mode-only)
+![](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-light-mode-only)
 
 ###### Overview statistics
 
@@ -68,7 +142,7 @@ Here are some ideas to get you started:
 
 | Best of 2023 (as of 2023, May 20th) (overview) | (languages) |
 |---|---|
-| ![2023.05.20 Stats](https://github.com/vadimdor/GitHub_Stats_A/blob/main/Seasons/11/SVG/overview_2023May20th.svg) | ![2023.05.20 languages](https://github.com/vadimdor/GitHub_Stats_A/blob/main/Seasons/11/SVG/languages_2023May20th.svg) |
+| ![2023.05.20 Stats](https://github.com/vadimdor/VadimDor/blob/main/Seasons/11/SVG/overview_2023May20th.svg) | ![2023.05.20 languages](https://github.com/vadimdor/VadimDor/blob/main/Seasons/11/SVG/languages_2023May20th.svg) |
 
 </details>
 
@@ -76,7 +150,7 @@ Here are some ideas to get you started:
 
 | Best of 2023 (as of 2023, February 28th, first run this year) (overview) | (languages) |
 |---|---|
-| ![2023.02.28 Stats](https://github.com/vadimdor/GitHub_Stats_A/blob/main/Seasons/8/SVG/Overview_GitHubStatsA_2023February28th.svg) | ![2023.02.28 languages](https://github.com/vadimdor/GitHub_Stats_A/blob/main/Seasons/8/SVG/Languages_GitHubStatsA_2023February28th.svg) |
+| ![2023.02.28 Stats](https://github.com/vadimdor/VadimDor/blob/main/Seasons/8/SVG/Overview_GitHubStatsA_2023February28th.svg) | ![2023.02.28 languages](https://github.com/vadimdor/VadimDor/blob/main/Seasons/8/SVG/Languages_GitHubStatsA_2023February28th.svg) |
 
 </details>
 
@@ -84,11 +158,11 @@ Here are some ideas to get you started:
 
 | Best of 2023 (as of 2023, December 12th) (overview) | (languages) |
 |---|---|
-![2023.12.12 Stats](https://github.com/vadimdor/GitHub_Stats_A/blob/main/Seasons/6/SVG/Overview_GitHubStatsA_2023December12th.svg) | ![2023.12.12 languages](https://github.com/vadimdor/GitHub_Stats_A/blob/main/Seasons/6/SVG/Languages_GitHubStatsA_2023December12th.svg) |
+![2023.12.12 Stats](https://github.com/vadimdor/VadimDor/blob/main/Seasons/6/SVG/Overview_GitHubStatsA_2023December12th.svg) | ![2023.12.12 languages](https://github.com/vadimdor/VadimDor/blob/main/Seasons/6/SVG/Languages_GitHubStatsA_2023December12th.svg) |
 
 </details>
 
-Full statistics are available at [:octocat: `GitHub_Stats_A`](https://github.com/vadimdor/GitHub_Stats_A/)
+Full statistics are available at [:octocat: `VadimDor`](https://github.com/vadimdor/VadimDor/)
 
 </details>
 
