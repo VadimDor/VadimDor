@@ -176,7 +176,7 @@ My GitHub skyline (via [skyline.github.com](https://skyline.github.com))
 [View skyline 2017 via GitHub skyline](https://skyline.github.com/vadimdor/2017/)
 
 [View STL file](https://github.com/VadimDor/VadimDor/blob/main/Special/GitHub_Skyline/2017/VadimDor-2017.stl)
-[View STL file](/blob/main/Special/GitHub_Skyline/2017/VadimDor-2017.stl)
+[View STL file](Special/GitHub_Skyline/2017/VadimDor-2017.stl)
 
 </detials>
 
@@ -220,7 +220,7 @@ My GitHub skyline (via [skyline.github.com](https://skyline.github.com))
 
 [View skyline 2022 via GitHub skyline](https://skyline.github.com/vadimdor/2022/)
 
-[View STL file](/Special/GitHub_Skyline/2022/vadimdor-2022.stl)
+[View STL file](https://github.com/VadimDor/VadimDor/blob/main/Special/GitHub_Skyline/2022/VadimDor-2022.stl)
 
 </details>
 
