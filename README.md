@@ -31,6 +31,17 @@ Here are some ideas to get you started:
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=vadimdor&theme=highcontrast)](https://git.io/streak-stats) 
 
+Customizing stats card
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=vadimdor&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&theme=transparent)
+
+
+Customizing stats card2
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=vadimdor\&show_icons=true\&title_color=fff\&icon_color=79ff97\&text_color=9f9f9f\&bg_color=151515&show_icons=true&theme=transparent)
+
+Stati6 compact
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=compact&size_weight=0.5&count_weight=0.5)
+
 Stati13
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=vadimdor&show_icons=true&bg_color=00000000)
@@ -97,9 +108,7 @@ Stati5 top 8
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&langs_count=8)
 
-Stati6 compact
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=compact)
 
 Stati7 donut
 
@@ -138,8 +147,7 @@ wakatime hide progress
 *   Compact layout 2
 ![Harlok's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=vadimdor\&layout=compact)
 
-*   Customizing stats card
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/?username=vadimdor\&show_icons=true\&title_color=fff\&icon_color=79ff97\&text_color=9f9f9f\&bg_color=151515)
+
 
 *   Customizing repo card
 ![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=vadimdor\&repo=github-readme-stats\&title_color=fff\&icon_color=f9f9f9\&text_color=9f9f9f\&bg_color=151515)
