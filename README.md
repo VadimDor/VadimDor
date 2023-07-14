@@ -1,7 +1,6 @@
 <img src="/Special/GitHub_Skyline/dubai.png"  width="100%" height="20%"><img src="/Special/GitHub_Skyline/Skyline-w.png"  width="100%" height="20%">
 ### Hi there 👋
 
-<script src="https://gist.github.com/VadimDor/8b437f60d3e3126075a900cc2a54eaba.js"></script>
 
 <!--
 **VadimDor/VadimDor** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
