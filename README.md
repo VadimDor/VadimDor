@@ -30,16 +30,23 @@ Here are some ideas to get you started:
 [![All Contributors](https://img.shields.io/badge/all_contributors-34-orange.svg?style=flat-square)](#contributors-) ![Profile views](https://komarev.com/ghpvc/?username=vadimdor) 
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=vadimdor&theme=highcontrast)](https://git.io/streak-stats) 
+
 ![ Dark](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/overview.svg#gh-dark-mode-only) 
-![](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/overview.svg#gh-light-mode-only) 
+
+![Light](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/overview.svg#gh-light-mode-only) 
+
 [![vadimdor's GitHub stats](https://github-readme-stats.vercel.app/api?username=vadimdor)](https://github.com/anuraghazra/github-readme-stats) 
 
 <sup> This particular card tends to not always load upon loading my profile. Refresh to fix it if it shows up as a blue link. </sup>
+
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=compact)](https://github.com/anuraghazra/github-readme-stats) 
-The left column shows my top 5 languages. They are more accurate than the new counter on most days. 
+The left column shows my top 5 languages. They are more accurate than the new counter on most days.
+
 [![Dark](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-dark-mode-only) 
+
 [![Source repository for new GitHub stats](https://github.com/vadimdor/VadimDor/)]
 <sub>There are some problems with the data set, you should read the docs for further information. Common problems include: the numbers going down when they should be going up, not all data being represented (only the past 365 days of activity)</sub> 
+
 [![Statictics light mode](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-light-mode-only)]
 [![Dark mode](https://raw.githubusercontent.com/vadimdor/VadimDor/main/generated/languages.svg#gh-dark-mode-only)]
 
@@ -54,8 +61,8 @@ The left column shows my top 5 languages. They are more accurate than the new co
 <img src="https://github.com/vadimdor/VadimDor/blob/main/generated/overview.svg#gh-light-mode-only" />
 <img src="https://github.com/vadimdor/VadimDor/blob/main/generated/languages.svg#gh-light-mode-only" />
 </a>
-
 </details>
+
 Stati1
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=vadimdor&repo=vadimdor)](https://github.com/anuraghazra/github-readme-stats)
 Stati2
