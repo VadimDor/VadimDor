@@ -43,6 +43,23 @@ Here are some ideas to get you started:
 | ![2023.12.12 Stats](https://github.com/vadimdor/GitHub_Stats_A/blob/main/Seasons/6/SVG/Overview_GitHubStatsA_2023December12th.svg) | ![2023.12.12 languages](https://github.com/vadimdor/GitHub_Stats_A/blob/main/Seasons/6/SVG/Languages_GitHubStatsA_2023December12th.svg) |
 !-->
 
+
+[![All Contributors](https://img.shields.io/badge/all_contributors-32-orange.svg?style=flat-square)](#contributors-) - This counter was added on 2021 December 29th
+
+![Profile views](https://komarev.com/ghpvc/?username=vadimdor) - This counter was added on 2021 December 29th
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=vadimdor&theme=highcontrast)](https://git.io/streak-stats) - This counter was added on 2021 December 29th
+
+[![VadimDor's GitHub stats](https://github-readme-stats.vercel.app/api?username=vadimdor)](https://github.com/anuraghazra/github-readme-stats) - This counter was added on 2021 December 29th
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vadimdor&layout=compact)](https://github.com/anuraghazra/github-readme-stats) - This counter was added on 2021 December 30th
+
+![](https://raw.githubusercontent.com/username/github-stats/master/generated/overview.svg#gh-dark-mode-only)
+![](https://raw.githubusercontent.com/username/github-stats/master/generated/overview.svg#gh-light-mode-only)
+
+![](https://raw.githubusercontent.com/username/github-stats/master/generated/languages.svg#gh-dark-mode-only)
+![](https://raw.githubusercontent.com/username/github-stats/master/generated/languages.svg#gh-light-mode-only)
+
 ###### Overview statistics
 
 <details open><summary><p><b>[Click/tap here to expand/collapse this section]</b></p></summary>
