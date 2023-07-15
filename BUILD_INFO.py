@@ -74,7 +74,7 @@ def main():
     # Language selector
     langInput1 = str(input('Lang🌐 >> '))
     langInput1 == langInput1.upper()
-    if langInput1 == 'EN' or 'ENGLISH':
+    if langInput1 == ('EN' or 'ENGLISH'):
         return englishBuildInfo()
         # break
     elif langInput1 == 'ES' or 'SPANISH':
