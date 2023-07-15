@@ -1,0 +1,31 @@
+
+name: Linter Pysa Action
+
+#  [push]            branch: ${{ github.ref }}
+on:
+    workflow_dispatch:
+#on:
+ #   push:
+ #     branches:
+ #       - main
+ #   pull_request:
+
+  
+  jobs:
+    pysa:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v2
+  
+        - name: Run Pysa Action
+          uses: facebook/pysa-action
+        #  uses: facebook/pysa-action@0.0.1          
+          with:
+            repo-directory: './'
+           # requirements-path: 'requirements.txt'
+            infer-types: true
+            include-default-sapp-filters: true
+           # sapp-filters-directory: path/to/custom-filters
+
+
+
