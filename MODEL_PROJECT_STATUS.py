@@ -1,10 +1,12 @@
 #!/usr/bin/env python
-# Start of script
+# pylint: disable=invalid-name
+
 """
 MODEL_PROJECT_STATUS.py
 Information about this projects use as a model project
 """
-
+# pylint: enable=invalid-name
+# Start of script
 from asyncio import sleep
 
 # modelProjectStatus
