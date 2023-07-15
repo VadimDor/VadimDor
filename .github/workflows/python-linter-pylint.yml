@@ -1,4 +1,4 @@
-name: Pylint
+name: Python linter Pylint
 #[push]
 on: 
  workflow_dispatch:
