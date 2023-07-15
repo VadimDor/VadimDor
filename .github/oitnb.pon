@@ -1,0 +1,6 @@
+# see https://pypi.org/project/oitnb/
+# oitnb python code formatter works around some of black's issues
+
+dict(
+   default=dict(line_length=88, double=False, multi-line-unwrap=True),
+)
