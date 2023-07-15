@@ -9,7 +9,7 @@ from asyncio import sleep
 
 
 def modelProjectStatus():
-    print("Model project status: This is a model project")
+    print('Model project status: This is a model project')
     print(
         "This is one of @vadimdor's Model projects. It is certified as a project ready for use as a first impression into vadimdor and his works"
     )
