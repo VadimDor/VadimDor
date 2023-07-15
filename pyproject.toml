@@ -40,8 +40,13 @@ per-file-ignores = """
 warn_return_any = true
 warn_unused_configs = true
 # python_version = 3.8
-
-
+scripts_are_modules = true
+warn_unused_ignores = true
+show_error_codes = true
+enable_error_code = "ignore-without-code"
+strict = true
+# TODO: Remove this once pytest has annotations
+disallow_untyped_decorators = false
 exclude = [
     "EnvPymagePro|venv|tmp|build|dist",
     "^one\\.py$", # TOML's double-quoted strings require escaping backslashes
@@ -54,22 +59,27 @@ exclude = [
     )'''
 ]
 
-# mypy per-module options:
+
 [[tool.mypy.overrides]]
-module = "mycode.foo.*"
+ignore_missing_imports = true
 disallow_untyped_defs = true
-ignore_missing_imports = true
-
-[[tool.mypy.overrides]]
-module = "mycode.bar"
 warn_return_any = false
-
-[[tool.mypy.overrides]]
 module = [
-    "somelibrary",
-    "some_other_library"
+    "_pytest.*",
+    "_string",
+    "astroid.*",
+    # `colorama` ignore is needed for Windows environment
+    "colorama",
+    "contributors_txt",
+    "coverage",
+    "dill",
+    "enchant.*",
+    "git.*",
+    "mccabe",
+    "pytest_benchmark.*",
+    "pytest",
+    "sphinx.*",
 ]
-ignore_missing_imports = true
  
  # see https://pycodestyle.pycqa.org/en/latest/intro.html#configuration
 [tool.pycodestyle]
@@ -115,33 +125,6 @@ extend_skip = [
 skip_gitignore = true
 
 
-[tool.mypy]
-scripts_are_modules = true
-warn_unused_ignores = true
-show_error_codes = true
-enable_error_code = "ignore-without-code"
-strict = true
-# TODO: Remove this once pytest has annotations
-disallow_untyped_decorators = false
-
-[[tool.mypy.overrides]]
-ignore_missing_imports = true
-module = [
-    "_pytest.*",
-    "_string",
-    "astroid.*",
-    # `colorama` ignore is needed for Windows environment
-    "colorama",
-    "contributors_txt",
-    "coverage",
-    "dill",
-    "enchant.*",
-    "git.*",
-    "mccabe",
-    "pytest_benchmark.*",
-    "pytest",
-    "sphinx.*",
-]
 
 # see https://github.com/astral-sh/ruff
 [tool.ruff]
