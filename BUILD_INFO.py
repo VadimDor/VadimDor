@@ -22,7 +22,7 @@ def englishBuildInfo():
   print("Plain text version: Any")
   print("\nThese languages are in use for this project, and need to be installed to view the full project.")
   print("\nEnd of info")
-break
+  break
 def spanishBuildInfo():
   # Coming soon
   '''
@@ -43,7 +43,7 @@ def spanishBuildInfo():
   print("\nThese languages are in use for this project, and need to be installed to view the full project.")
   print("\nEnd of info")
   '''
-break
+  break
 # Language selector
 langInput1 = str(input("Lang🌐 >> "))
 langInput1 == langInput1.upper()
