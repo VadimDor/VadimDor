@@ -12,7 +12,8 @@ jobs:
         with:
           python-version: 3.8
       - uses: isort/isort-action@1.1.0
-        with:
+        #with:
             # configuration: "--show-files "
            # requirementsFiles: "requirements.txt requirements-test.txt" --show-config
-          
+
+         
