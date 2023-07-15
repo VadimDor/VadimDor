@@ -77,7 +77,7 @@ def main():
     if langInput1 == ('EN' or 'ENGLISH'):
         return englishBuildInfo()
         # break
-    elif langInput1 == 'ES' or 'SPANISH':
+    elif langInput1 in ('ES' , 'SPANISH'):
         return spanish_build_info()
         # break
     else:
