@@ -26,7 +26,7 @@ jobs:
         with:
           auto_fix: true
           black: true
-          black_args: " -t py38 -t py39 -t py310 --verbose --version --preview"
+          black_args: " --verbose --version --preview"
           black_auto_fix: true
           flake8: true
           flake8_auto_fix: false
@@ -35,7 +35,6 @@ jobs:
           Mypy: true
           oitnb: true
           Autopep8_auto_fix: true
-          Mypy_auto_fix: true
           oitnb_auto_fix: true          
           github_token: ${{ secrets.GITHUB_TOKEN }}
           # git_name: Username for auto-fix commits. Default: "Lint Action"
