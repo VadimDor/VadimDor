@@ -18,6 +18,87 @@ extend-exclude = '''
 )
 '''
 
+[tool.flake8]
+max-line-length = 120
+extend-ignore = [ E302 ]
+# python_version = "3.10"
+per-file-ignores = [ my_script.py:F401]
+
+
+# see https://mypy.readthedocs.io/en/stable/config_file.html
+[tool.mypy]
+warn_return_any = True
+warn_unused_configs = True
+
+exclude = (?x)(
+    ^one\.py$    # files named "one.py"
+    | two\.pyi$  # or files ending with "two.pyi"
+    | ^three\.   # or files starting with "three."
+  )
+
+exclude = [
+    "^one\\.py$",  # TOML's double-quoted strings require escaping backslashes
+    'two\.pyi$',  # but TOML's single-quoted strings do not
+    '^three\.',
+]
+
+exclude = '''(?x)(
+    ^one\.py$    # files named "one.py"
+    | two\.pyi$  # or files ending with "two.pyi"
+    | ^three\.   # or files starting with "three."
+)'''  # TOML's single-quoted strings do not require escaping backslashes
+# mypy global options:
+
+
+
+
+exclude = [
+    '^file1\.py$',  # TOML literal string (single-quotes, no escaping necessary)
+    "^file2\\.py$",  # TOML basic string (double-quotes, backslash and other characters need escaping)
+]
+
+# mypy per-module options:
+[[tool.mypy.overrides]]
+module = "mycode.foo.*"
+disallow_untyped_defs = true
+
+[[tool.mypy.overrides]]
+module = "mycode.bar"
+warn_return_any = false
+
+[[tool.mypy.overrides]]
+module = [
+    "somelibrary",
+    "some_other_library"
+]
+ignore_missing_imports = true
+ 
+ # see https://pycodestyle.pycqa.org/en/latest/intro.html#configuration
+[tool.pycodestyle]
+max-line-length = 120
+count = False
+ignore = E226,E302,E71
+max-line-length = 160
+statistics = True
+
+# see https://docs.pytest.org/en/latest/reference/customize.html
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+    "integration",
+]
+
+[tool.pytest]
+addopts = --pycodestyle
+
+[tool.autopep8]
+max_line_length = 120
+ignore = "E501,W6"  # or ["E501", "W6"]
+in-place = true
+recursive = true
+aggressive = 3
 
 [tool.isort]
 profile = "black"
@@ -135,8 +216,9 @@ max-complexity = 10
 # see https://github.com/pylint-dev/pylint/issues/3181
 # see also .pylintrc in https://github.com/pylint-dev/pylint/blob/main/pylintrc
 
-max-line-length = 88
 
+[tool.--pylint.format]
+max-line-length = 120
 #disable = "C0330, R0201"
 disable = [
   "missing-docstring",
@@ -241,6 +323,8 @@ unsafe-load-any-extension = 'no'
 # Only show warnings with the listed confidence levels. Leave empty to show
 # all. Valid levels: HIGH, INFERENCE, INFERENCE_FAILURE, UNDEFINED.
 confidence = ''
+
+# codes are here https://github.com/pylint-dev/pylint/issues/3512
 
 # Disable the message, report, category or checker with the given id(s). You
 # can either give multiple identifiers separated by comma (,) or put this
