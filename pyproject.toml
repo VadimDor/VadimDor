@@ -76,7 +76,6 @@ ignore_missing_imports = true
 max-line-length = 120
 count = false
 ignore = "E226,E302,E71"
-max-line-length = 160
 statistics = true
 
 # see https://docs.pytest.org/en/latest/reference/customize.html
@@ -151,7 +150,6 @@ module = [
 # (for docstrings, strings and comments in particular).
 # Same as Black.
 line-length = 120
-
 select = [
     "E",  # pycodestyle
     "F",  # pyflakes
