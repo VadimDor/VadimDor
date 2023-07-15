@@ -19,7 +19,27 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pylint==v3.0.0a3 pylint-per-file-ignores && pylint --version --list-msgs-enabled
+        pip install pylint==v3.0.0a3 && pylint --version --list-msgs-enabled
+        pip install \
+        pylint-per-file-ignores \
+        broad_try_clause \
+        code_style \
+        emptystring \
+        comparetozero \
+        confusing_elif \
+        consider_ternary_expression \
+        bad_builtin \
+        mccabe \
+        docstyle \
+        check_elif \
+        redefined_variable_type \
+        overlapping_exceptions \
+        docparams \
+        empty_comment \
+        set_membership \
+        typing \
+        while_used
     - name: Analysing the code with pylint
       run: |
         pylint `ls -R|grep .py$|xargs`
+

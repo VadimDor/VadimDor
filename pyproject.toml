@@ -20,16 +20,26 @@ extend-exclude = '''
 
 [tool.flake8]
 max-line-length = 120
-extend-ignore = [ E302 ]
 # python_version = "3.10"
 per-file-ignores = [ my_script.py:F401]
+inline-quotes = '"'
+copyright-check = "true"
+copyright-author = "VADIMDOR"
+min-coverage-percents=100
+extend-exclude="tmp, venv, ext, ext_bin, cmake-format.py, build"
+extend-ignore = "E203,E741,W503"
+select = "Q0,E,F,W,C,C4,B,B901,TAE,ANN,TC,TC1"
+show_source = "true"
+
 
 
 # see https://mypy.readthedocs.io/en/stable/config_file.html
 [tool.mypy]
 warn_return_any = True
 warn_unused_configs = True
+# python_version = 3.8
 
+exclude = "EnvPymagePro|venv|tmp|build|dist"
 exclude = (?x)(
     ^one\.py$    # files named "one.py"
     | two\.pyi$  # or files ending with "two.pyi"
@@ -49,18 +59,17 @@ exclude = '''(?x)(
 )'''  # TOML's single-quoted strings do not require escaping backslashes
 # mypy global options:
 
-
-
-
 exclude = [
     '^file1\.py$',  # TOML literal string (single-quotes, no escaping necessary)
     "^file2\\.py$",  # TOML basic string (double-quotes, backslash and other characters need escaping)
 ]
 
+
 # mypy per-module options:
 [[tool.mypy.overrides]]
 module = "mycode.foo.*"
 disallow_untyped_defs = true
+ignore_missing_imports = true
 
 [[tool.mypy.overrides]]
 module = "mycode.bar"
@@ -106,6 +115,17 @@ known_third_party = ["platformdirs", "astroid", "sphinx", "isort", "pytest", "mc
 skip_glob = ["tests/functional/**", "tests/input/**", "tests/extensions/data/**", "tests/regrtest_data/**", "tests/data/**", "astroid/**", "venv/**"]
 #src_paths = ["./"]
 supported_extensions = ["py", "py3","pyw","pyt"]
+multi_line_output = 3
+line_length = 120
+extend_skip = [
+    "tmp",
+    "ext",
+    "ext_bin",
+    "venv",
+    "build",
+    ]
+skip_gitignore = true
+
 
 [tool.mypy]
 scripts_are_modules = true
@@ -238,8 +258,7 @@ disable = [
 [tool.--pylint.format]
 max-module-lines = 1000
 
-[tool.--pydocstyle]
-ignore = 'D102,D103'
+
 
 [tool.--pylint.design]
 # limiting the number of returns might discourage
@@ -287,6 +306,7 @@ ignore = '''.git,
 pycodestyle.py
 '''
 
+ignore-paths = "./pycodestyle.py"
 
 # Add files or directories matching the regex patterns to the blacklist. The
 # regex matches against base names, not paths.
@@ -310,6 +330,23 @@ limit-inference-results = 100
 # usually to register additional checkers.
 load-plugins=[
     "pylint_per_file_ignores",
+    "pylint.extensions.broad_try_clause",
+    "pylint.extensions.code_style",
+    "pylint.extensions.emptystring",
+    "pylint.extensions.comparetozero",
+    "pylint.extensions.confusing_elif",
+    "pylint.extensions.consider_ternary_expression",
+    "pylint.extensions.bad_builtin",
+    "pylint.extensions.mccabe",
+    "pylint.extensions.docstyle",
+    "pylint.extensions.check_elif",
+    "pylint.extensions.redefined_variable_type",
+    "pylint.extensions.overlapping_exceptions",
+    "pylint.extensions.docparams",
+    "pylint.extensions.empty_comment",
+    "pylint.extensions.set_membership",
+    "pylint.extensions.typing",
+    "pylint.extensions.while_used"
 ]
 
 # Pickle collected data for later comparisons.
@@ -545,7 +582,8 @@ ignore-on-opaque-inference = 'yes'
 # List of class names for which member attributes should not be checked (useful
 # for classes with dynamically set attributes). This supports the use of
 # qualified names.
-ignored-classes = 'optparse.Values,thread._local,_thread._local'
+ignored-classes = 'optparse.Values,thread._local,_thread._local,TextFileReader'
+
 
 # List of module names for which member attributes should not be checked
 # (useful for modules/projects where namespaces are manipulated during runtime
@@ -884,6 +922,13 @@ min-public-methods = 2
 overgeneral-exceptions = '''BaseException,
                        Exception
 '''
+
+[tool.pydocstyle]
+ignore = 'D102,D103'
+match_dir = '^(?!(venv|.eggs|tmp|build|dist|ext|ext_bin)).*'
+match = '^(?!(version)).*.py'
+add-ignore = "D412"
+
 
 [tool.pylint-per-file-ignores]
 "/folder_1/"="missing-function-docstring,W0621,W0240,C0115"
