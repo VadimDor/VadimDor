@@ -23,22 +23,22 @@ jobs:
         pip install pylint==v3.0.0a6 && pylint --version --list-msgs-enabled
         pip install \
         pylint.extensions.pylint-per-file-ignores \
-        pylint.extensions.mccabe \
-        pylint.extensions.docstyle \     
-        pylint.extensions.docparams \           
-        emptystring \
-        comparetozero \
-        confusing_elif \
-        consider_ternary_expression \
-        bad_builtin \
-        check_elif \
-        redefined_variable_type \
-        overlapping_exceptions \
-        empty_comment \
-        set_membership \
-        typing \
-        while_used
-        #         broad_try_clause         code_style 
+        pylint.extensions.docstyle \ 
+        pylint.extensions.docparams     
+
+    #    emptystring \
+    #    comparetozero \
+    #    confusing_elif \
+    #    consider_ternary_expression \
+    #    bad_builtin \
+    #    check_elif \
+     #   redefined_variable_type \
+    #    overlapping_exceptions \
+     #   empty_comment \
+    #    set_membership \
+    #    typing \
+    #    while_used
+        #   broad_try_clause  code_style  pylint.extensions.mccabe 
     - name: Analysing the code with pylint
       run: |
         pylint `ls -R|grep .py$|xargs`
