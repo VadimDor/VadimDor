@@ -218,75 +218,11 @@ Try it out! The sponsor button is right up next to the watch/unwatch button.
 [![Shell Lint](https://github.com/vadimdor/vadimdor/actions/workflows/shell-lint.yml/badge.svg)](https://github.com/vadimdor/vadimdor/actions/workflows/shell-lint.yml)
 [![Upload Python Package](https://github.com/vadimdor/vadimdor/actions/workflows/python-publish.yml/badge.svg)](https://github.com/vadimdor/vadimdor/actions/workflows/python-publish.yml)
 [![YAML Lint](https://github.com/vadimdor/vadimdor/actions/workflows/yaml-lint.yml/badge.svg)](https://github.com/vadimdor/vadimdor/actions/workflows/yaml-lint.yml)
+[![Python Lint](https://github.com/vadimdor/vadimdor/actions/workflows/black.yml/badge.svg)](https://github.com/vadimdor/vadimdor/actions/workflows/black.yml)
 
 [View workflow files](https://github.com/vadimdor/vadimdor/actions/workflows/)
 
 </details>
-
-***
-
-
-## Special
-
-### Skyline
-
-<details><summary>:eyes: Show example (Click/tap here to expand/collapse)</summary>
-  
-## Skyline 2017
-
-<details open><summary>:eyes: Show example (Click/tap here to expand/collapse)</summary>
-
-[View skyline 2017 via GitHub skyline](https://skyline.github.com/vadimdor/2017/)
-
-[View STL file](Special/GitHub_Skyline/2017/VadimDor-2017.stl)
-
-</detials>
-
-## Skyline 2018
-
-<details><summary>:eyes: Show example (Click/tap here to expand/collapse)</summary>
-
-
-[View skyline 2018 via GitHub skyline](https://skyline.github.com/vadimdor/2018/)
-
-</detials>
-
-## Skyline 2019
-
-<details><summary>:eyes: Show example (Click/tap here to expand/collapse)</summary>
-
-
-[View skyline 2019 via GitHub skyline](https://skyline.github.com/vadimdor/2019/)
-
-</detials>
-
-## Skyline 2020
-
-<details><summary>:eyes: Show example (Click/tap here to expand/collapse)</summary>
-
-[View skyline 2020 via GitHub skyline](https://skyline.github.com/vadimdor/2020/)
-
-</details>
-
-## Skyline 2021
-
-<details><summary>:eyes: Show example (Click/tap here to expand/collapse)</summary>
-
-[View skyline 2021 via GitHub skyline](https://skyline.github.com/vadimdor/2021/)  |  [View STL file](Special/GitHub_Skyline/2021/VadimDor-2021.stl)
-</details>
-
-## Skyline 2022
-It was no time for some creative
-
-## Skyline 2023
-
-<details open><summary>:eyes: Show example (Click/tap here to expand/collapse)</summary>
-
-[View skyline 2023 via GitHub skyline](https://skyline.github.com/vadimdor/2023/) | [View STL file (coming soon)]
-</details> <!-- End of Skyline 2023 !-->
-
-</details> <!-- End of Skyline data list !-->
-</details> <!-- End of skyline section !-->
 
 ***
 
