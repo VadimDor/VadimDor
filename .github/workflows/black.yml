@@ -1,5 +1,5 @@
 name: Lint
-#  [push, pull_request]
+#  [push, pull_request]            branch: ${{ github.ref }}
 on:
  workflow_dispatch:
 
@@ -29,3 +29,6 @@ jobs:
           black_auto_fix: true
           flake8: true
           flake8_auto_fix: false
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # git_name: Username for auto-fix commits. Default: "Lint Action"
+          git_email: github-actions[bot]@users.noreply.github.com # Email address for auto-fix commits. Default: "lint-action@samuelmeuli.com"
