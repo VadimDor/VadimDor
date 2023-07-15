@@ -1,11 +1,12 @@
 #!/usr/bin/env python
+# pylint: disable=invalid-name
 # Start of script
 """
 BUILD_INFO.py
 Build information file for this project
 """
 
-
+# pylint: enable=invalid-name
 # This file has not yet been tested
 def englishBuildInfo():
     print('Build information')
