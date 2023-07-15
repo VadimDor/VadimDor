@@ -271,7 +271,7 @@ max-returns = 8
 [tool.pylint.format]
 max-line-length = 120
 
-[tool.pylint.master]
+[tool.pylint.MASTER]
 
 # A comma-separated list of package or module names from where C extensions may
 # be loaded. Extensions are loading into the active Python interpreter and may
@@ -306,7 +306,9 @@ limit-inference-results = 100
 
 # List of plugins (as comma separated values of python module names) to load,
 # usually to register additional checkers.
-load-plugins = ''
+load-plugins=[
+    "pylint_per_file_ignores",
+]
 
 # Pickle collected data for later comparisons.
 persistent = 'yes'
@@ -880,3 +882,7 @@ min-public-methods = 2
 overgeneral-exceptions = '''BaseException,
                        Exception
 '''
+
+[tool.pylint-per-file-ignores]
+"/folder_1/"="missing-function-docstring,W0621,W0240,C0115"
+"pycodestyle.py"="C0103,C0200,C0301,C0302,C0303,C0330,R0801,R0902,R0903,R0904,R0911,R0912,R0913,R0914,W0621,W0622,W0702,W0703,W1116,W9012,W9016"
