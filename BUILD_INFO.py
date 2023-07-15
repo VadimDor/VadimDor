@@ -29,7 +29,8 @@ def englishBuildInfo():
     print('\nPython version: 3.6 and up')
     print('BASH SHell verson: 5.0 and up (older versions may still work perfectly fine)')
     print(
-        'Comma Seperated Value version: Any (recommended programs: LibreOffice Calc, Kate, Notepad++, Gedit, any other text editor)'
+        'Comma Seperated Value version: Any (recommended programs: LibreOffice' \
+              'Calc, Kate, Notepad++, Gedit, any other text editor)'
     )
     print('Makefile (GNU Make) version: Unknown')
     print('LaTeX/BiBTeX version: 2.0 or higher')
@@ -50,11 +51,13 @@ def spanishBuildInfo():
     """
     print("Build information")
     print("For: VadimDor/VadimDor")
-    languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
+    languageList = ["Python", "HTML5", "SHell", "CSV", "Makefile", 
+        "TeX/BibTeX", "INI", "Desktop", "JSON", "YAML", "Markdown", "Plain Text"]
     print("\nLanguages: " + str(languageList))
     print("\nPython version: 3.6 and up")
     print("BASH SHell verson: 5.0 and up (older versions may still work perfectly fine)")
-    print("Comma Seperated Value version: Any (recommended programs: LibreOffice Calc, Kate, Notepad++, Gedit, any other text editor)")
+    print("Comma Seperated Value version: Any (recommended programs: "\
+    "LibreOffice Calc, Kate, Notepad++, Gedit, any other text editor)")
     print("Makefile (GNU Make) version: Unknown")
     print("LaTeX/BiBTeX version: 2.0 or higher")
     print("INI version: Windows 95 or newer")
@@ -62,7 +65,8 @@ def spanishBuildInfo():
     print("JSON file version: 2001 or newer")
     print("Markdown version: 1.0 or newer")
     print("Plain text version: Any")
-    print("\nThese languages are in use for this project, and need to be installed to view the full project.")
+    print("\nThese languages are in use for this project, "\
+        "and need to be installed to view the full project.")
     print("\nEnd of info")
     """
     return
