@@ -13,6 +13,7 @@ project. I chose to make 2, but more prominently with Python.
 I chose the 2 languages that I am best at.
 This is a Python file. The other file is an HTML5 file.
 """
+# pylint: enable=invalid-name
 print('LANG1.py')
 print(
     'I made this language file, so that a programming language \
