@@ -69,7 +69,15 @@ def spanish_build_info():
     print("\nEnd of info")
     """
 
-
+"""
+Problems
+Language name inputs are not translated to the correct language
+Exit function is not translated to a non-English language
+The program may not yet be functional yet
+Translations are needed for all languages except for English
+List is out of order
+Not all intended languages are supported yet
+"""
 def main():
     # Language selector
     langInput1 = str(input('Lang🌐 >> '))
@@ -88,14 +96,6 @@ def main():
 
 if __name__ == '__main__':
     main()
-"""
-Problems
-Language name inputs are not translated to the correct language
-Exit function is not translated to a non-English language
-The program may not yet be functional yet
-Translations are needed for all languages except for English
-List is out of order
-Not all intended languages are supported yet
-"""
+
 # This project uses ISO 639-1 language codes
 # End of script
