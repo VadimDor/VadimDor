@@ -22,8 +22,10 @@ def englishBuildInfo():
   print("Plain text version: Any")
   print("\nThese languages are in use for this project, and need to be installed to view the full project.")
   print("\nEnd of info")
-break
+  return
+
 def spanishBuildInfo():
+  # Coming soon
   '''
   print("Build information")
   print("For: VadimDor/VadimDor")
@@ -42,20 +44,25 @@ def spanishBuildInfo():
   print("\nThese languages are in use for this project, and need to be installed to view the full project.")
   print("\nEnd of info")
   '''
-break
+  return
+
+def main():
 # Language selector
-langInput1 = str(input("Lang🌐 >> "))
-langInput1 == langInput1.upper()
-if (langInput1 == "EN" or "ENGLISH"):
-  return englishBuildInfo()
-  break
-elif (langInput1 == "ES" or "SPANISH"):
-  return spanishBuildInfo()
-  break
-else:
-  print("That language is not available")
-  noMore = input("❌")
-  print("Goodbye")
+ langInput1 = str(input("Lang🌐 >> "))
+ langInput1 == langInput1.upper()
+ if (langInput1 == "EN" or "ENGLISH"):
+   return englishBuildInfo()
+   #break
+ elif (langInput1 == "ES" or "SPANISH"):
+   return spanishBuildInfo()
+   #break
+ else:
+   print("That language is not available")
+   noMore = input("❌")
+   print("Goodbye")
+
+if __name__ == '__main__':
+    main()   
 '''
 Problems
 Language name inputs are not translated to the correct language
