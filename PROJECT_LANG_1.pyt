@@ -7,7 +7,9 @@ a == (x ** y * z)
 print(a)
 """
 LANG1.py
-I made this language file, so that a programming language is associated with this project. I chose to make 2, but more prominently with Python. I chose the 2 languages that I am best at.
+I made this language file, so that a programming language is associated 
+with this project. I chose to make 2, but more prominently with Python. 
+I chose the 2 languages that I am best at.
 This is a Python file. The other file is an HTML5 file.
 """
 print ("LANG1.py")
