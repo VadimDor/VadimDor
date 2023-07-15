@@ -21,7 +21,7 @@ extend-exclude = '''
 [tool.flake8]
 max-line-length = 120
 # python_version = "3.10"
-per-file-ignores = [ my_script.py:F401]
+per-file-ignores = [ my_script.py:F401 ]
 inline-quotes = '"'
 copyright-check = "true"
 copyright-author = "VADIMDOR"
