@@ -287,9 +287,6 @@ max-returns = 8
 # setup.cfg or other tool-specific files.
 # https://github.com/carlosperate/awesome-pyproject
 
-[tool.pylint.format]
-max-line-length = 120
-
 [tool.pylint.MASTER]
 
 # A comma-separated list of package or module names from where C extensions may
@@ -636,7 +633,6 @@ init-import = 'no'
 # List of qualified module names which can have objects that can redefine
 # builtins.
 redefining-builtins-modules = 'six.moves,past.builtins,future.builtins,builtins,io'
-
 
 [tool.pylint.FORMAT]
 
