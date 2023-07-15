@@ -13,6 +13,6 @@ jobs:
           python-version: 3.8
       - uses: isort/isort-action@master
         with:
-            configuration:
+            configuration: " --verbose "
            # requirementsFiles: "requirements.txt requirements-test.txt"
          
