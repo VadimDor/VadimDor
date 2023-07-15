@@ -45,7 +45,7 @@ def englishBuildInfo():
     print('\nEnd of info')
 
 
-def spanishBuildInfo():
+def SpanishBuildInfo():
     # Coming soon
     """
     print("Build information")
@@ -78,7 +78,7 @@ def main():
         return englishBuildInfo()
         # break
     elif langInput1 == 'ES' or 'SPANISH':
-        return spanishBuildInfo()
+        return SpanishBuildInfo()
         # break
     else:
         print('That language is not available')
