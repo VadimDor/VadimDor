@@ -11,4 +11,4 @@ jobs:
         with:
            # src: "./src"
             #version: 0.0.259
-            args:  --show-files --show-fixes --show-source
+            args:  --diff --statistics 
