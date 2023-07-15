@@ -42,8 +42,9 @@ def spanishBuildInfo():
   print("Plain text version: Any")
   print("\nThese languages are in use for this project, and need to be installed to view the full project.")
   print("\nEnd of info")
-  '''
+
   break
+    '''
 def esperantoBuildInfo():
   # Coming soon
   '''
@@ -107,7 +108,7 @@ def germanBuildInfo():
   print("\nEnd of info")
   '''
   break
-  def russianBuildInfo():
+def russianBuildInfo():
   # Coming soon
   '''
   print("Build information")
