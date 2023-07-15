@@ -21,10 +21,6 @@ extend-exclude = '''
 [tool.flake8]
 max-line-length = 120
 # python_version = "3.10"
-per-file-ignores = """
-        __init__.py: F401
-        ./src/*: E402
-"""
 inline-quotes = '"'
 copyright-check = "true"
 copyright-author = "VADIMDOR"
@@ -33,7 +29,10 @@ extend-exclude="tmp, venv, ext, ext_bin, cmake-format.py, build"
 extend-ignore = "E203,E741,W503"
 select = "Q0,E,F,W,C,C4,B,B901,TAE,ANN,TC,TC1"
 show_source = "true"
-
+per-file-ignores = """
+        __init__.py: F401
+        ./src/*: E402
+"""
 
 
 # see https://mypy.readthedocs.io/en/stable/config_file.html
