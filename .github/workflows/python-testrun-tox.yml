@@ -1,4 +1,4 @@
-name: Python Linter Tox 
+name: Python Testrunner Tox 
 on:
   #pull_request:
   #push:
