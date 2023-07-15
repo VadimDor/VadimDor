@@ -1,3 +1,4 @@
+# pylint: disable=invalid-name
 # Start of script
 x = int(2)
 y = int(16)
