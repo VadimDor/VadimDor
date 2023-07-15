@@ -26,7 +26,7 @@ line-length = 150
 select = ["E", "F"]
 ignore = []
 
-include =  ["py", "py3","pyw","pyt"]
+include =  ["*.py", "*.py3","*.pyw","*.pyt"]
 
 # Allow autofix for all enabled rules (when `--fix`) is provided.
 fixable = ["ALL"]
