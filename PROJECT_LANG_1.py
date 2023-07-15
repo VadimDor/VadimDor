@@ -1,10 +1,10 @@
 # Start of script
 x = int(2)
 y = int(16)
-z = int(2)
-a = int(0)
-a == (x ** y * z)
-print(a)
+Z = int(2)
+A = int(0)
+A== (x ** y * Z)
+print(A)
 """
 LANG1.py
 I made this language file, so that a programming language is associated with this 
