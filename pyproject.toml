@@ -283,7 +283,9 @@ fail-under = '10.0'
 
 # Add files or directories to the blacklist. They should be base names, not
 # paths.
-ignore = '.git,pycodestyle.py'
+ignore = '''.git,
+pycodestyle.py
+'''
 
 
 # Add files or directories matching the regex patterns to the blacklist. The
@@ -885,4 +887,4 @@ overgeneral-exceptions = '''BaseException,
 
 [tool.pylint-per-file-ignores]
 "/folder_1/"="missing-function-docstring,W0621,W0240,C0115"
-"pycodestyle.py"="C0103,C0200,C0301,C0302,C0303,C0330,R0801,R0902,R0903,R0904,R0911,R0912,R0913,R0914,W0621,W0622,W0702,W0703,W1116,W9012,W9016"
+"./pycodestyle.py"="C0103,C0200,C0301,C0302,C0303,C0330,R0801,R0902,R0903,R0904,R0911,R0912,R0913,R0914,W0621,W0622,W0702,W0703,W1116,W9012,W9016"
