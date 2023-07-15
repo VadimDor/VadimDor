@@ -237,48 +237,6 @@ max-complexity = 10
 # see also .pylintrc in https://github.com/pylint-dev/pylint/blob/main/pylintrc
 
 
-[tool.--pylint.format]
-max-line-length = 120
-#disable = "C0330, R0201"
-disable = [
-  "missing-docstring",
-  "unused-argument",
-  "no-value-for-parameter",
-  "no-member",
-  "no-else-return",
-  "bad-whitespace",
-  "bad-continuation",
-  "line-too-long",
-  "fixme",
-  "protected-access",
-  "too-few-public-methods",
-]
-
-# Maximum number of lines in a module.
-[tool.--pylint.format]
-max-module-lines = 1000
-
-
-
-[tool.--pylint.design]
-# limiting the number of returns might discourage
-# the use of guard clauses. So we increase the
-# allowed number of returns from 6 to 8
-max-returns = 8
-
-#[--pylint.messages control]
-#disable = unreachable, missing-function-docstring, missing-module-docstring,  prefer-logging-interpolation, line-too-long
-
-#[tool.pylint]
-#disable = ["line-too-long"]
-#disable = """
-#    too-many-arguments,
-#    invalid-name,
-#    not-callable
-#"""
-
-
-
 # see https://github.com/atlassian-api/atlassian-python-api/blob/master/pyproject.toml
 
 # pyproject.toml is a new configuration file defined in PEP 518.
@@ -362,7 +320,7 @@ disable = '''print-statement,
         parameter-unpacking,
         unpacking-in-except,
         old-raise-syntax,
-      #  backtick,
+        backtick,
         long-suffix,
         old-ne-operator,
         old-octal-literal,
@@ -912,3 +870,45 @@ add-ignore = "D412"
 [tool.pylint-per-file-ignores]
 "/folder_1/"="missing-function-docstring,W0621,W0240,C0115"
 "./pycodestyle.py"="C0103,C0200,C0301,C0302,C0303,C0330,R0801,R0902,R0903,R0904,R0911,R0912,R0913,R0914,W0621,W0622,W0702,W0703,W1116,W9012,W9016"
+
+
+[tool.--py-lint.format]
+max-line-length = 120
+max-module-lines = 1000
+#disable = "C0330, R0201"
+disable = [
+  "missing-docstring",
+  "unused-argument",
+  "no-value-for-parameter",
+  "no-member",
+  "no-else-return",
+  "bad-whitespace",
+  "bad-continuation",
+  "line-too-long",
+  "fixme",
+  "protected-access",
+  "too-few-public-methods",
+]
+
+
+
+
+[tool.--py-lint.design]
+# limiting the number of returns might discourage
+# the use of guard clauses. So we increase the
+# allowed number of returns from 6 to 8
+max-returns = 8
+
+#[--pylint.messages control]
+#disable = unreachable, missing-function-docstring, missing-module-docstring,  prefer-logging-interpolation, line-too-long
+
+#[tool.pylint]
+#disable = ["line-too-long"]
+#disable = """
+#    too-many-arguments,
+#    invalid-name,
+#    not-callable
+#"""
+
+
+
