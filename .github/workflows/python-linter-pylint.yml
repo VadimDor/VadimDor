@@ -20,22 +20,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install pylint==v3.0.0a6 pylint-per-file-ignores && pylint --version --list-msgs-enabled
-        pip install  pylint.extensions.docstyle docparams
-    #       pylint.extensions.docparams     
-    #    emptystring \
-    #    comparetozero \
-    #    confusing_elif \
-    #    consider_ternary_expression \
-    #    bad_builtin \
-    #    check_elif \
-     #   redefined_variable_type \
-    #    overlapping_exceptions \
-     #   empty_comment \
-    #    set_membership \
-    #    typing \
-    #    while_used
-        #   broad_try_clause  code_style  pylint.extensions.mccabe 
+        pip install  docparams
     - name: Analysing the code with pylint
       run: |
         pylint `ls -R|grep .py$|xargs`
-
