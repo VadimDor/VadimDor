@@ -18,6 +18,7 @@ supported_extensions = ["py", "py3","pyw","pyt"]
 
 # see https://github.com/astral-sh/ruff
 [tool.ruff]
+line-length = 150
 # Enable pycodestyle (`E`) and Pyflakes (`F`) codes by default.
 select = ["E", "F"]
 ignore = []
