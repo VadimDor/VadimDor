@@ -43,7 +43,6 @@ def englishBuildInfo():
         '\nThese languages are in use for this project, and need to be installed to view the full project.'
     )
     print('\nEnd of info')
-    return
 
 
 def spanishBuildInfo():
@@ -69,7 +68,6 @@ def spanishBuildInfo():
         "and need to be installed to view the full project.")
     print("\nEnd of info")
     """
-    return
 
 
 def main():
