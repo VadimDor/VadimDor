@@ -19,13 +19,13 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pylint==v3.0.0a6 && pylint --version --list-msgs-enabled
         pip install --upgrade pip
+        pip install pylint==v3.0.0a6 && pylint --version --list-msgs-enabled
         pip install \
-        pylint-per-file-ignores \
-        mccabe \
-        docstyle \     
-        docparams \           
+        pylint.extensions.pylint-per-file-ignores \
+        pylint.extensions.mccabe \
+        pylint.extensions.docstyle \     
+        pylint.extensions.docparams \           
         emptystring \
         comparetozero \
         confusing_elif \
@@ -38,7 +38,7 @@ jobs:
         set_membership \
         typing \
         while_used
-        #         broad_try_clause         code_style \
+        #         broad_try_clause         code_style 
     - name: Analysing the code with pylint
       run: |
         pylint `ls -R|grep .py$|xargs`
