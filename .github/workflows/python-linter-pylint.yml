@@ -23,23 +23,22 @@ jobs:
         pip install --upgrade pip
         pip install \
         pylint-per-file-ignores \
-        code_style \
+        mccabe \
+        docstyle \     
+        docparams \           
         emptystring \
         comparetozero \
         confusing_elif \
         consider_ternary_expression \
         bad_builtin \
-        mccabe \
-        docstyle \
         check_elif \
         redefined_variable_type \
         overlapping_exceptions \
-        docparams \
         empty_comment \
         set_membership \
         typing \
         while_used
-        #         broad_try_clause \
+        #         broad_try_clause         code_style \
     - name: Analysing the code with pylint
       run: |
         pylint `ls -R|grep .py$|xargs`
