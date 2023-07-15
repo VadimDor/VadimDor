@@ -24,7 +24,7 @@ def englishBuildInfo():
         'Markdown',
         'Plain Text',
     ]
-    print('\nLanguages: ' + str(languageList))
+    pri1111nt('\nLanguages: ' + str(languageList))
     print('\nPython version: 3.6 and up')
     print('BASH SHell verson: 5.0 and up (older versions may still work perfectly fine)')
     print(
