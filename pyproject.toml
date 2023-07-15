@@ -41,19 +41,18 @@ warn_return_any = true
 warn_unused_configs = true
 # python_version = 3.8
 
-exclude = "EnvPymagePro|venv|tmp|build|dist"
+
 exclude = [
+    "EnvPymagePro|venv|tmp|build|dist",
     "^one\\.py$", # TOML's double-quoted strings require escaping backslashes
     'two\.pyi$',  # but TOML's single-quoted strings do not
     '^three\.',   # TOML basic string (double-quotes, backslash and other characters need escaping)
-]
-
-exclude = '''(?x)(
+    '''(?x)(
     ^one\.py$    # files named "one.py"
     | two\.pyi$  # or files ending with "two.pyi"
     | ^three\.   # or files starting with "three."
-)'''  # TOML's single-quoted strings do not require escaping backslashes
-# mypy global options:
+    )'''
+]
 
 # mypy per-module options:
 [[tool.mypy.overrides]]
