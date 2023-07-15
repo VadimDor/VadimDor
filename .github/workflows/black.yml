@@ -19,7 +19,7 @@ jobs:
           python-version: 3.11
 
       - name: Install Python dependencies
-        run: pip install black flake8 pylint Autopep8 Mypy oitnb isort
+        run: pip install black flake8 pylint Autopep8 Mypy oitnb
 
       - name: Run linters
         uses: wearerequired/lint-action@v2
@@ -34,8 +34,6 @@ jobs:
           Autopep8: true
           Mypy: true
           oitnb: true
-          isort: true
-          isort_auto_fix: true
           Autopep8_auto_fix: true
           oitnb_auto_fix: true          
           github_token: ${{ secrets.GITHUB_TOKEN }}
