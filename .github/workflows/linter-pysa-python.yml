@@ -23,4 +23,4 @@ jobs:
                 infer-types: true
                 #include-default-sapp-filters: true
                 #sapp-filters-directory: path/to/custom-filters
-                #requirements-path: 'requirements.txt'                
+                requirements-path: 'requirements-pysa-lint.txt'                
