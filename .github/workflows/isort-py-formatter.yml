@@ -11,8 +11,8 @@ jobs:
       - uses: actions/setup-python@v4
         with:
           python-version: 3.8
-      - uses: isort/isort-action@master
+      - uses: isort/isort-action@1.1.0
         with:
-            configuration: "--show-files "
+            # configuration: "--show-files "
            # requirementsFiles: "requirements.txt requirements-test.txt" --show-config
           
