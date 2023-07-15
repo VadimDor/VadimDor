@@ -42,16 +42,10 @@ warn_unused_configs = true
 # python_version = 3.8
 
 exclude = "EnvPymagePro|venv|tmp|build|dist"
-exclude = (?x)(
-    ^one\.py$    # files named "one.py"
-    | two\.pyi$  # or files ending with "two.pyi"
-    | ^three\.   # or files starting with "three."
-  )
-
 exclude = [
-    "^one\\.py$",  # TOML's double-quoted strings require escaping backslashes
+    "^one\\.py$", # TOML's double-quoted strings require escaping backslashes
     'two\.pyi$',  # but TOML's single-quoted strings do not
-    '^three\.',
+    '^three\.',   # TOML basic string (double-quotes, backslash and other characters need escaping)
 ]
 
 exclude = '''(?x)(
@@ -60,12 +54,6 @@ exclude = '''(?x)(
     | ^three\.   # or files starting with "three."
 )'''  # TOML's single-quoted strings do not require escaping backslashes
 # mypy global options:
-
-exclude = [
-    '^file1\.py$',  # TOML literal string (single-quotes, no escaping necessary)
-    "^file2\\.py$",  # TOML basic string (double-quotes, backslash and other characters need escaping)
-]
-
 
 # mypy per-module options:
 [[tool.mypy.overrides]]
