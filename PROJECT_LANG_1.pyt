@@ -11,10 +11,13 @@ I made this language file, so that a programming language is associated with thi
 This is a Python file. The other file is an HTML5 file.
 """
 print ("LANG1.py")
-print ("I made this language file, so that a programming language is associated with this project. I chose to make 2, but more prominently with Python. I chose the 2 languages that I am best at.")
+print ("I made this language file, so that a programming language is associated\
+        with this project. I chose to make 2, but more prominently with Python.\
+        I chose the 2 languages that I am best at.")
 print ("This is a Python file. The other file is an HTML5 file.")
 noMore = input("Press [ENTER] key to quit")
-print ("The program should have stopped. If the program has not yet stopped, try ending the process, or closing the terminal window")
+print ("The program should have stopped. If the program has not yet stopped,\
+        try ending the process, or closing the terminal window")
 # End of script
 """
 File info
