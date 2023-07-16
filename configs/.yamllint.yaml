@@ -1,0 +1,80 @@
+# -*- coding: utf-8 -*-
+# vim: ft=yaml
+---
+# Extend the `default` configuration provided by `yamllint`
+# See https://yamllint.readthedocs.io/en/stable/rules.html
+
+extends: default  # or extends: relaxed
+# YAML (http://yaml.org/)
+# YAML linter (http://www.yamllint.com/)
+locale: en_US.UTF-8
+
+# Files to ignore completely
+# 1. All YAML files under directory `.bundle/`, introduced if gems are installed locally
+# 2. All YAML files under directory `.cache/`, introduced during the CI run
+# 3. All YAML files under directory `.git/`
+# 4. All YAML files under directory `node_modules/`, introduced during the CI run
+# 5. Any SLS files under directory `test/`, which are actually state files
+# 8. All YAML files heavily reliant on important things; these can be tackled in a subsequent PR
+ignore: |
+  /vendor/**
+  /spec/manage/**
+yaml-files:
+  # Default settings
+  - '*.yaml'
+  - '*.yml'
+  - .custom-lint
+  - .yamllint
+  # SaltStack Formulas additional settings
+  - '*.example'
+  - test/**/*.sample
+rules:
+  comments:
+    # prettier formats comments one space from content
+    min-spaces-from-content: 1
+  document-start:   # or disable
+    present: false
+  truthy:
+    allowed-values: ["true", "false"]
+    # Allow Github Actions keys like 'on'
+    # no: Norway language code in meta/group-info
+    # on: list of Github Actions triggers    
+    check-keys: false
+  # Increase from default of `80`
+  # Based on https://github.com/PyCQA/flake8-bugbear#opinionated-warnings (`B950`)    
+  line-length:    # or disable
+    max: 150
+    level: warning    
+    indentation:
+      level: warning
+      indent-sequences: consistent   # or false
+      spaces: 2
+      check-multi-line-strings: true        
+  line-length:
+    allow-non-breakable-words: true
+    allow-non-breakable-inline-mappings: true   
+    # there are some bash -c "", so this is OK
+    max: 300
+    level: warning
+  braces:
+    min-spaces-inside-empty: 0
+    max-spaces-inside-empty: 0
+  brackets:
+    min-spaces-inside-empty: 0
+    max-spaces-inside-empty: 0
+   empty-values:   # or just enable
+    forbid-in-block-mappings: true
+    forbid-in-flow-mappings: true  
+  new-lines: disable
+  octal-values: # or just   octal-values: enable
+    forbid-implicit-octal: true
+    forbid-explicit-octal: true
+  quoted-strings:
+    quote-type: single
+    required: false
+  colons: disable
+  indentation:
+    indent-sequences: false
+
+
+   
