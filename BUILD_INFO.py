@@ -10,8 +10,9 @@ Build information file for this project
 
 # pylint: enable=invalid-name
 
-# This file has not yet been tested
+# 
 def english_build_info():
+    '''This file has not yet been tested'''
     print('Build information')
     print('For: VadimDor/VadimDor')
     language_list = [
@@ -82,20 +83,20 @@ List is out of order
 Not all intended languages are supported yet
 """
 def main():
-    # Language selector
+    ''' Language selector '''
     lang_input1 = str(input('Lang🌐 >> '))
     lang_input1 == lang_input1.upper()
     if lang_input1 == ('EN' or 'ENGLISH'):
         return english_build_info()
         # break
-    elif lang_input1 in ('ES' , 'SPANISH'):
+    if lang_input1 in ('ES' , 'SPANISH'):
         return spanish_build_info()
         # break
     else:
         print('That language is not available')
-        noMore = input('❌')
+        no_more = input('❌')
         print('Goodbye')
-
+    return ""
 
 if __name__ == '__main__':
     main()
