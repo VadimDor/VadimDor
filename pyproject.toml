@@ -18,15 +18,28 @@ extend-exclude = '''
 )
 '''
 
+[tool.flake8]
+max-line-length = 120
+# python_version = "3.10"
+inline-quotes = '"'
+copyright-check = "true"
+copyright-author = "VADIMDOR"
+min-coverage-percents=100
+extend-exclude="tmp, venv, ext, ext_bin, cmake-format.py, build"
+extend-ignore = "E203,E741,W503"
+select = "Q0,E,F,W,C,C4,B,B901,TAE,ANN,TC,TC1"
+show_source = "true"
+per-file-ignores = """
+        __init__.py: F401
+        ./src/*: E402
+"""
 
-[tool.isort]
-profile = "black"
-known_third_party = ["platformdirs", "astroid", "sphinx", "isort", "pytest", "mccabe", "six", "toml"]
-skip_glob = ["tests/functional/**", "tests/input/**", "tests/extensions/data/**", "tests/regrtest_data/**", "tests/data/**", "astroid/**", "venv/**"]
-#src_paths = ["./"]
-supported_extensions = ["py", "py3","pyw","pyt"]
 
+# see https://mypy.readthedocs.io/en/stable/config_file.html
 [tool.mypy]
+warn_return_any = true
+warn_unused_configs = true
+# python_version = 3.8
 scripts_are_modules = true
 warn_unused_ignores = true
 show_error_codes = true
@@ -34,9 +47,23 @@ enable_error_code = "ignore-without-code"
 strict = true
 # TODO: Remove this once pytest has annotations
 disallow_untyped_decorators = false
+exclude = [
+    "EnvPymagePro|venv|tmp|build|dist",
+    "^one\\.py$", # TOML's double-quoted strings require escaping backslashes
+    'two\.pyi$',  # but TOML's single-quoted strings do not
+    '^three\.',   # TOML basic string (double-quotes, backslash and other characters need escaping)
+    '''(?x)(
+    ^one\.py$    # files named "one.py"
+    | two\.pyi$  # or files ending with "two.pyi"
+    | ^three\.   # or files starting with "three."
+    )'''
+]
+
 
 [[tool.mypy.overrides]]
 ignore_missing_imports = true
+disallow_untyped_defs = true
+warn_return_any = false
 module = [
     "_pytest.*",
     "_string",
@@ -53,15 +80,58 @@ module = [
     "pytest",
     "sphinx.*",
 ]
+ 
+ # see https://pycodestyle.pycqa.org/en/latest/intro.html#configuration
+[tool.pycodestyle]
+max-line-length = 120
+count = false
+ignore = "E226,E302,E71"
+statistics = true
+
+# see https://docs.pytest.org/en/latest/reference/customize.html
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+    "integration",
+]
+
+[tool.pytest]
+addopts = "--pycodestyle"
+
+[tool.autopep8]
+max_line_length = 120
+ignore = "E501,W6"  # or ["E501", "W6"]
+in-place = true
+recursive = true
+aggressive = 3
+
+[tool.isort]
+profile = "black"
+known_third_party = ["platformdirs", "astroid", "sphinx", "isort", "pytest", "mccabe", "six", "toml"]
+skip_glob = ["tests/functional/**", "tests/input/**", "tests/extensions/data/**", "tests/regrtest_data/**", "tests/data/**", "astroid/**", "venv/**"]
+#src_paths = ["./"]
+supported_extensions = ["py", "py3","pyw","pyt"]
+multi_line_output = 3
+line_length = 120
+extend_skip = [
+    "tmp",
+    "ext",
+    "ext_bin",
+    "venv",
+    "build",
+    ]
+skip_gitignore = true
+
+
 
 # see https://github.com/astral-sh/ruff
 [tool.ruff]
-
 # ruff is less lenient than pylint and does not make any exceptions
 # (for docstrings, strings and comments in particular).
 # Same as Black.
 line-length = 120
-
 select = [
     "E",  # pycodestyle
     "F",  # pyflakes
@@ -135,48 +205,6 @@ max-complexity = 10
 # see https://github.com/pylint-dev/pylint/issues/3181
 # see also .pylintrc in https://github.com/pylint-dev/pylint/blob/main/pylintrc
 
-max-line-length = 88
-
-#disable = "C0330, R0201"
-disable = [
-  "missing-docstring",
-  "unused-argument",
-  "no-value-for-parameter",
-  "no-member",
-  "no-else-return",
-  "bad-whitespace",
-  "bad-continuation",
-  "line-too-long",
-  "fixme",
-  "protected-access",
-  "too-few-public-methods",
-]
-
-# Maximum number of lines in a module.
-[tool.--pylint.format]
-max-module-lines = 1000
-
-[tool.--pydocstyle]
-ignore = 'D102,D103'
-
-[tool.--pylint.design]
-# limiting the number of returns might discourage
-# the use of guard clauses. So we increase the
-# allowed number of returns from 6 to 8
-max-returns = 8
-
-#[--pylint.messages control]
-#disable = unreachable, missing-function-docstring, missing-module-docstring,  prefer-logging-interpolation, line-too-long
-
-#[tool.pylint]
-#disable = ["line-too-long"]
-#disable = """
-#    too-many-arguments,
-#    invalid-name,
-#    not-callable
-#"""
-
-
 
 # see https://github.com/atlassian-api/atlassian-python-api/blob/master/pyproject.toml
 
@@ -185,9 +213,6 @@ max-returns = 8
 # tool configuration for your Python project, possibly replacing the need for
 # setup.cfg or other tool-specific files.
 # https://github.com/carlosperate/awesome-pyproject
-
-[tool.pylint.format]
-max-line-length = 120
 
 [tool.pylint.MASTER]
 
@@ -201,11 +226,16 @@ fail-under = '10.0'
 
 # Add files or directories to the blacklist. They should be base names, not
 # paths.
-ignore = '.git'
+ignore = '''.git,
+pycodestyle.py
+'''
+
+ignore-paths = "./pycodestyle.py"
 
 # Add files or directories matching the regex patterns to the blacklist. The
 # regex matches against base names, not paths.
-ignore-patterns = ''
+# ignore-patterns = ''
+ignore-patterns='pycodestyle.py'
 
 # Python code to execute, usually for sys.path manipulation such as
 # pygtk.require().
@@ -222,7 +252,9 @@ limit-inference-results = 100
 
 # List of plugins (as comma separated values of python module names) to load,
 # usually to register additional checkers.
-load-plugins = ''
+load-plugins=[
+    "pylint_per_file_ignores"
+]
 
 # Pickle collected data for later comparisons.
 persistent = 'yes'
@@ -242,6 +274,8 @@ unsafe-load-any-extension = 'no'
 # all. Valid levels: HIGH, INFERENCE, INFERENCE_FAILURE, UNDEFINED.
 confidence = ''
 
+# codes are here https://github.com/pylint-dev/pylint/issues/3512
+
 # Disable the message, report, category or checker with the given id(s). You
 # can either give multiple identifiers separated by comma (,) or put this
 # option multiple times (only on the command line, not in the configuration
@@ -251,90 +285,91 @@ confidence = ''
 # --enable=similarities". If you want to run only the classes checker, but have
 # no Warning level messages displayed, use "--disable=all --enable=classes
 # --disable=W".
-disable = '''print-statement,
-        parameter-unpacking,
-        unpacking-in-except,
-        old-raise-syntax,
-        backtick,
-        long-suffix,
-        old-ne-operator,
-        old-octal-literal,
-        import-star-module-level,
-        non-ascii-bytes-literal,
-        raw-checker-failed,
-        bad-inline-option,
-        locally-disabled,
-        file-ignored,
-        suppressed-message,
-        useless-suppression,
-        deprecated-pragma,
-        use-symbolic-message-instead,
-        apply-builtin,
-        basestring-builtin,
-        buffer-builtin,
-        cmp-builtin,
-        coerce-builtin,
-        execfile-builtin,
-        file-builtin,
-        long-builtin,
-        raw_input-builtin,
-        reduce-builtin,
-        standarderror-builtin,
-        unicode-builtin,
-        xrange-builtin,
-        coerce-method,
-        delslice-method,
-        getslice-method,
-        setslice-method,
-        no-absolute-import,
-        old-division,
-        dict-iter-method,
-        dict-view-method,
-        next-method-called,
-        metaclass-assignment,
-        indexing-exception,
-        raising-string,
-        reload-builtin,
-        oct-method,
-        hex-method,
-        nonzero-method,
-        cmp-method,
-        input-builtin,
-        round-builtin,
-        intern-builtin,
-        unichr-builtin,
-        map-builtin-not-iterating,
-        zip-builtin-not-iterating,
-        range-builtin-not-iterating,
-        filter-builtin-not-iterating,
-        using-cmp-argument,
-        eq-without-hash,
-        div-method,
-        idiv-method,
-        rdiv-method,
-        exception-message-attribute,
-        invalid-str-codec,
-        sys-max-int,
-        bad-python3-import,
-        deprecated-string-function,
-        deprecated-str-translate-call,
-        deprecated-itertools-function,
-        deprecated-types-field,
-        next-method-defined,
-        dict-items-not-iterating,
-        dict-keys-not-iterating,
-        dict-values-not-iterating,
-        deprecated-operator-function,
-        deprecated-urllib-function,
-        xreadlines-attribute,
-        deprecated-sys-function,
-        exception-escape,
-        comprehension-escape,
-        missing-module-docstring,
-        missing-class-docstring,
-        missing-function-docstring,
+disable = '''
+    #print-statement,
+      #  parameter-unpacking,
+      #  unpacking-in-except,
+     #   old-raise-syntax,
+     #   backtick,
+     #   long-suffix,
+     #   old-ne-operator,
+     #   old-octal-literal,
+     #   import-star-module-level,
+     #   non-ascii-bytes-literal,
+     #   raw-checker-failed,
+      #  bad-inline-option,
+     #   locally-disabled,
+      #  file-ignored,
+    #    suppressed-message,
+     #   useless-suppression,
+     #   deprecated-pragma,
+     #   use-symbolic-message-instead,
+     #   apply-builtin,
+    #    basestring-builtin,
+     #   buffer-builtin,
+     #   cmp-builtin,
+      #  coerce-builtin,
+      #  execfile-builtin,
+      #  file-builtin,
+      #  long-builtin,
+      #  raw_input-builtin,
+      #  reduce-builtin,
+      #  standarderror-builtin,
+      #  unicode-builtin,
+       # xrange-builtin,
+      #  coerce-method,
+      #  delslice-method,
+      #  getslice-method,
+      #  setslice-method,
+      #  no-absolute-import,
+      #  old-division,
+      #  dict-iter-method,
+     #   dict-view-method,
+     #   next-method-called,
+     #   metaclass-assignment,
+      #  indexing-exception,
+      #  raising-string,
+      #  reload-builtin,
+      #  oct-method,
+      #  hex-method,
+      #  nonzero-method,
+      #  cmp-method,
+      #  input-builtin,
+      #  round-builtin,
+      #  intern-builtin,
+      #  unichr-builtin,
+      #  map-builtin-not-iterating,
+      #  zip-builtin-not-iterating,
+      #  range-builtin-not-iterating,
+     #  filter-builtin-not-iterating,
+      #  using-cmp-argument,
+     #   eq-without-hash,
+      #  div-method,
+      #  idiv-method,
+      #  rdiv-method,
+     #   exception-message-attribute,
+      #  invalid-str-codec,
+     #   sys-max-int,
+     #   bad-python3-import,
+    #    deprecated-string-function,
+     #   deprecated-str-translate-call,
+    #    deprecated-itertools-function,
+      #  deprecated-types-field,
+      #  next-method-defined,
+      #  dict-items-not-iterating,
+     #   dict-keys-not-iterating,
+     #   dict-values-not-iterating,
+     #   deprecated-operator-function,
+     #   deprecated-urllib-function,
+     #   xreadlines-attribute,
+     #   deprecated-sys-function,
+    #    exception-escape,
+     #   comprehension-escape,
+     #   missing-module-docstring,
+     #   missing-class-docstring,
+     #   missing-function-docstring,
         W,
-        R0201,
+      #  R0201,
 '''
 
 # Enable the message, report, category or checker with the given id(s). You can
@@ -455,7 +490,8 @@ ignore-on-opaque-inference = 'yes'
 # List of class names for which member attributes should not be checked (useful
 # for classes with dynamically set attributes). This supports the use of
 # qualified names.
-ignored-classes = 'optparse.Values,thread._local,_thread._local'
+ignored-classes = 'optparse.Values,thread._local,_thread._local,TextFileReader'
+
 
 # List of module names for which member attributes should not be checked
 # (useful for modules/projects where namespaces are manipulated during runtime
@@ -508,7 +544,6 @@ init-import = 'no'
 # List of qualified module names which can have objects that can redefine
 # builtins.
 redefining-builtins-modules = 'six.moves,past.builtins,future.builtins,builtins,io'
-
 
 [tool.pylint.FORMAT]
 
@@ -791,6 +826,59 @@ min-public-methods = 2
 
 # Exceptions that will emit a warning when being caught. Defaults to
 # "BaseException, Exception".
-overgeneral-exceptions = '''BaseException,
-                       Exception
+overgeneral-exceptions = '''builtins.BaseException,
+                            builtins.Exception
 '''
+
+[tool.pydocstyle]
+ignore = 'D102,D103'
+match_dir = '^(?!(venv|.eggs|tmp|build|dist|ext|ext_bin)).*'
+match = '^(?!(version)).*.py'
+add-ignore = "D412"
+
+
+[tool.pylint-per-file-ignores]
+"/folder_1/"="missing-function-docstring,W0621,W0240,C0115"
+"./pycodestyle.py"="C0103,C0200,C0301,C0302,C0303,C0330,R0801,R0902,R0903,R0904,R0911,R0912,R0913,R0914,W0621,W0622,W0702,W0703,W1116,W9012,W9016"
+
+
+[tool.--py-lint.format]
+max-line-length = 120
+max-module-lines = 1000
+#disable = "C0330, R0201"
+disable = [
+  "missing-docstring",
+  "unused-argument",
+  "no-value-for-parameter",
+  "no-member",
+  "no-else-return",
+  "bad-whitespace",
+  "bad-continuation",
+  "line-too-long",
+  "fixme",
+  "protected-access",
+  "too-few-public-methods",
+]
+
+
+
+
+[tool.--py-lint.design]
+# limiting the number of returns might discourage
+# the use of guard clauses. So we increase the
+# allowed number of returns from 6 to 8
+max-returns = 8
+
+#[--pylint.messages control]
+#disable = unreachable, missing-function-docstring, missing-module-docstring,  prefer-logging-interpolation, line-too-long
+
+#[tool.pylint]
+#disable = ["line-too-long"]
+#disable = """
+#    too-many-arguments,
+#    invalid-name,
+#    not-callable
+#"""
+
+
+
