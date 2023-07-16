@@ -1,17 +1,20 @@
 #!/usr/bin/env python
 # pylint: disable=invalid-name
+
 # Start of script
+
 """
 BUILD_INFO.py
 Build information file for this project
 """
 
 # pylint: enable=invalid-name
+
 # This file has not yet been tested
-def englishBuildInfo():
+def english_build_info():
     print('Build information')
     print('For: VadimDor/VadimDor')
-    languageList = [
+    language_list = [
         'Python',
         'HTML5',
         'SHell',
@@ -25,7 +28,7 @@ def englishBuildInfo():
         'Markdown',
         'Plain Text',
     ]
-    print('\nLanguages: ' + str(languageList))
+    print('\nLanguages: ' + str(language_list))
     print('\nPython version: 3.6 and up')
     print('BASH SHell verson: 5.0 and up (older versions may still work perfectly fine)')
     print(
@@ -80,12 +83,12 @@ Not all intended languages are supported yet
 """
 def main():
     # Language selector
-    langInput1 = str(input('Lang🌐 >> '))
-    langInput1 == langInput1.upper()
-    if langInput1 == ('EN' or 'ENGLISH'):
-        return englishBuildInfo()
+    lang_input1 = str(input('Lang🌐 >> '))
+    lang_input1 == lang_input1.upper()
+    if lang_input1 == ('EN' or 'ENGLISH'):
+        return english_build_info()
         # break
-    elif langInput1 in ('ES' , 'SPANISH'):
+    elif lang_input1 in ('ES' , 'SPANISH'):
         return spanish_build_info()
         # break
     else:

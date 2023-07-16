@@ -9,8 +9,9 @@ Information about this projects use as a model project
 # Start of script
 from asyncio import sleep
 
-# modelProjectStatus
-def modelProjectStatus():
+
+def model_project_status():
+    ''' modelProjectStatus'''
     print('Model project status: This is a model project')
     print(
         "This is one of @vadimdor's Model projects. \
@@ -21,6 +22,7 @@ def modelProjectStatus():
 
 # main
 def main():
+    '''main function'''
     # print ("Model project status: This is a model project")
     # print ("This is one of @vadimdor's Model projects.
     #  It is certified as a project ready for use as a first impression into
@@ -30,7 +32,7 @@ def main():
     # print("The program should now be closed. If you are not using Python
     # in a terminal, and the program is still open, try manually closing it with the close button.
     # If that doesn't work, try ending the process with a process/task manager.")
-    return modelProjectStatus()
+    return model_project_status()
 
 
 # End of script
