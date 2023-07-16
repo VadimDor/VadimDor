@@ -26,3 +26,7 @@ jobs:
         autopep8 --diff --aggressive --aggressive `find . -type f -name '*.py*'|xargs`
 # see how send diff output as PR to git here:
 # https://stackoverflow.com/questions/71086285/github-action-post-comment-to-pr-with-pylint-result
+# https://github.com/mezgoodle/auto-formatter/tree/master/action
+# https://github.com/dependabot/dependabot-actions-workflow
+# https://github.com/marketplace/actions/auto-formatter
+# https://github.com/marketplace/actions/github-action-for-creating-pull-requests
