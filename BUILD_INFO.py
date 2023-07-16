@@ -10,7 +10,6 @@ Build information file for this project
 
 # pylint: enable=invalid-name
 
-# 
 def english_build_info():
     '''This file has not yet been tested'''
     print('Build information')
@@ -89,7 +88,7 @@ def main():
     if lang_input1 == ('EN' or 'ENGLISH'):
         return english_build_info()
         # break
-    if lang_input1 in ('ES' , 'SPANISH'):
+    if lang_input1 == ('ES' or 'SPANISH'):
         return spanish_build_info()
         # break
     else:
