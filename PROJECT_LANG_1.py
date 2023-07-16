@@ -9,9 +9,9 @@ This is a Python file. The other file is an HTML5 file.
 # Start of script
 x = int(2)
 y = int(16)
-Z = int(2)
+z = int(2)
 A = int(0)
-A== (x ** y * Z)
+A== (x ** y * z)
 print(A)
 
 # pylint: enable=invalid-name

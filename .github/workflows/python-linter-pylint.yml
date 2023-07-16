@@ -22,4 +22,5 @@ jobs:
         pip install pylint==v3.0.0a6 pylint-per-file-ignores && pylint --version --list-msgs-enabled
     - name: Analysing the code with pylint
       run: |
+        ls -R|grep .py$|xargs
         pylint  `ls -R|grep .py$|xargs`
