@@ -91,10 +91,10 @@ def main():
     if lang_input1 == ('ES' or 'SPANISH'):
         return spanish_build_info()
         # break
-    else:
-        print('That language is not available')
-        no_more = input('❌')
-        print('Goodbye')
+    
+    print('That language is not available')
+    no_more = input('❌')
+    print('Goodbye')
     return ""
 
 if __name__ == '__main__':
