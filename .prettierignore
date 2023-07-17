@@ -1,0 +1,4 @@
+*.md
+azure-*.yml
+docs/source/_templates/*
+vadimdor/components/*/translations/*.json

@@ -1,0 +1,5 @@
+# Patterns matched in this file will be ignored by supported search utilities
+
+# Ignore generated html and javascript files
+/test/*.html
+/tests/*.js

@@ -1,0 +1,923 @@
+# -*- coding: utf-8 -*-
+# vim: ft=yaml
+---
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+
+# Install pre-commit itself:
+#   $ pip install pre-commit
+#     OR
+#   $ brew install pre-commit
+#
+# Update all pre-commit hooks to latest version:
+#   $ pre-commit autoupdate
+#
+# Install all pre-commit hooks locally:
+#   $ pre-commit install
+#
+# Apply a given pre-commit hook to all files:
+#   $ pre-commit run --all-files <id>
+#
+# Apply all pre-commit hooks to all files:
+#   $ pre-commit run --all-files
+
+minimum_pre_commit_version: '2.9.2'
+
+default_stages: [commit, push]
+default_language_version:
+  # force all unspecified Python hooks to run python3
+  python: python3
+
+# Install pre-commit hooks via
+# pre-commit install
+
+exclude: >
+    (?x)^(
+      \.vscode/settings\.json|
+    )$
+
+
+configs/pre-commit-config.yaml
+
+# Note: don't use this config for your own repositories. Instead, see
+# "Version control integration" in 
+# https://github.com/seanpm2001/PSF_Black/blob/main/docs/integrations/source_version_control.md
+# exclude: ^(src/blib2to3/|profiling/|tests/data/)
+# exclude: "^docs/"
+# exclude: 'docs/|ext/'
+# exclude: .ci/gitlab/ci.yml
+# exclude: 'docsrc'
+fail_fast: true
+
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+repos:
+# Meta checks
+- repo: meta
+  hooks:
+  - id: check-useless-excludes
+  - id: identity
+    name: Print input to the static check hooks for troubleshooting
+  - id: check-hooks-apply
+    name: Check if all hooks apply to the repository 
+# General fixers
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    #rev: v4.4.0
+    rev: master
+    hooks:
+    -   id: check-yaml
+        name: "Check YAML"    
+        exclude: .github/conda/meta.yaml
+    -   id: check-ast
+        name: "Check Python AST"    
+        exclude: '^(pyextra)/'    
+    -   id: check-case-conflict
+        name: "Check for case conflicts"    
+    -   id: check-merge-conflict
+        name: "Check for merge conflict markers and merge conflicts are not being committed"    
+        exclude: "rst$"
+      - id: check-executables-have-shebangs
+        name: "Check that executables have shebangs" 
+        exclude: 'pre\-commit\-config\.yaml' 
+        stages: [manual]
+      - id: check-shebang-scripts-are-executable
+        name: "Check that shebangs are executable"  
+        stages: [manual]
+        exclude: ^test/t/lang\.rb$        
+      - id: check-json
+        name: "Check JSON"      
+        exclude: (.vscode|.devcontainer)
+      - id: check-docstring-first        
+      - id: no-commit-to-branch
+        name: Prevent commits to wrong branch
+         #   args: [--branch, master, --pattern, 'v?\d{1,3}\.x']
+        args:
+          - --branch=dev
+          - --branch=master
+          - --branch=main          
+          - --branch=rc     
+    - id: check-case-conflict
+    - id: check-xml
+      name: Check XML files with xmllint
+    - id: debug-statements
+      name: Detect accidentally committed debug statements
+    - id: check-added-large-files
+      args: [--maxkb=1025]
+    - id: check-symlinks
+    - id: check-builtin-literals
+      name: Require literal syntax when initializing Python builtin types
+    - id: check-toml
+      name: "Check TOML"
+      # Make sure not break significant newlines in markdown
+      # files, or yaml action files.
+    - id: trailing-whitespace
+      name: Remove trailing whitespace at end of line
+      exclude_types: [svg]
+      exclude: "^.github/.*_TEMPLATE.md"  #exclude: \.(yaml|yml)$  exclude: ^README.md
+      args: [--markdown-linebreak-ext=md]
+    - id: check-added-large-files
+    - id: end-of-file-fixer
+      name: Make sure that there is an empty line at the end
+      exclude_types: [svg]
+      exclude: "[.]md$"  # exclude: .*\.txt
+    - id: file-contents-sorter
+      name: "Sort codespell ignore list"
+      args: ['--ignore-case']
+      files: |
+        CONTRIBUTORS.txt|
+        docs/spelling_wordlist.txt|
+        .gitignore|
+        .gitattributes|
+        (?x)^(
+         .gitignore|
+          docs/spelling_wordlist.txt|
+          ^codespell\.txt$
+       )$   
+    - id: mixed-line-ending
+      name: Normalize mixed line endings and detect if mixed line ending is used (\r vs. \r\n)
+      args: [--fix=lf]
+      exclude_types: [batch]    
+    - id: requirements-txt-fixer
+      exclude: >-
+       ^requirements/constraints[.]txt$
+    - id: fix-byte-order-marker
+      name: Remove Unicode BOM    
+    - id: fix-encoding-pragma
+      name: Remove encoding header from python files
+      args: ['--remove']
+    - id: detect-aws-credentials
+      args: ['--allow-missing-credentials']
+    - id: detect-private-key
+      name: Detect if private key is added to the repository
+      exclude: ^examples/
+    - id: pretty-format-json
+      name: Format json files
+        args:  # args: ['--autofix', --indent=4]
+          - --autofix
+          - --no-sort-keys
+          - --indent
+          - "4"
+        files: ^.json$|*.json$
+        pass_filenames: true   
+    - id: double-quote-string-fixer
+    - id: name-tests-test
+      name: Check that test files start with test
+      args: [--pytest-test-first]
+    - id: check-vcs-permalinks    
+      name: "Check that VCS links are permalinks"    
+    -   id: flake8
+        name: Flake8 on commit diff
+        description: This hook limits Flake8 checks to changed lines of code.
+        entry: bash
+        args: [-c, 'git diff HEAD | flake8 --diff --max-line-length=88']    
+        exclude: ^(docs/*)
+        args: [--max-line-length=120, --ignore=E203]
+    -   id: check-byte-order-marker
+    -   id: forbid-new-submodules
+    -   id: sort-simple-yaml
+
+-   repo: https://github.com/pre-commit/mirrors-autopep8
+    rev: v1.7.0
+    hooks:
+    -   id: autopep8
+
+
+# Pylint    
+-   repo: https://github.com/pycqa/pylint
+    rev: v2.14.5
+    hooks:
+    -   id: pylint
+        name: pylint
+        entry: pylint
+        language: system
+        types: [python]
+        exclude: '^(pyextra/)|(cereal/)|(rednose/)|(panda/)|(laika/)|(laika_repo/)|(rednose_repo/)/'
+        args:
+        #- --disable=C,R,W0613,W0511,W0212,W0201,W0311,W0106,W0603,W0621,W0703,E1136    
+
+
+#- repo: https://github.com/ambv/black
+#  rev: "22.3.0"
+#  hooks:
+#  - id: black
+#    # Since the pre-commit runs on a file by file basis rather than a whole project,
+#    # The excludes in pyproject.toml are ignored
+#    exclude: migrations
+#    language_version: python3
+#    args: [-l 120, --target-version=py36]  
+  
+# https://github.com/python/black#version-control-integration               
+# Black
+-   repo: https://github.com/psf/black
+    rev: 23.1.0 # must match requirements-tests.txt
+    hooks:
+       - id: black
+        name: Run Black (the uncompromising Python code formatter)
+        files: '^Fw/Python/'    #files: ^((script|tests)/.+)?[^/]+\.py$ 
+        stages: ['commit']    
+        args: [-l 120,--config=./pyproject.toml,--target-version=py39,--target-version=py310,--safe,--quiet]    
+        #args:
+        #  - --safe
+        #  - --quiet
+        # language_version: python3.10 
+        # It is recommended to specify the latest version of Python
+        # supported by your project here, or alternatively use
+        # pre-commit's default_language_version, see
+        # https://pre-commit.com/#top_level-default_language_version        
+        language_version: python3 # Should be a command that runs python3.6+
+        #  language_version: "python3.10"
+        # Black misbehaved and broke when click 8.1.0 was released with an internal
+        # module removed. See https://github.com/psf/black/issues/2964
+        additional_dependencies: ['click<8.1.0']        
+    -   id: black
+        name: Format Python Code (black) in Gds/
+        files: '^Gds/'
+        # Since the pre-commit runs on a file by file basis rather than a whole project,
+        # The excludes in pyproject.toml are ignored        
+        exclude: '^Gds/src/fprime_gds/wxgui/'  
+
+
+
+
+# isort should run before black as black sometimes tweaks the isort output
+-   repo: https://github.com/pycqa/isort
+    rev: 5.10.1
+    hooks:
+    -   id: isort
+        name: "Sort imports with isort"
+        args: ['--profile=black', '--atomic']        
+        stages: ['commit']
+        #files: \.py$
+
+# Flake8    
+-   repo: https://gitlab.com/pycqa/flake8
+    rev: main #  6.0.0 # must match requirements-tests.txt
+    hooks:
+   -   id: flake8
+        exclude: '^(pyextra/)|(cereal/)|(rednose/)|(panda/)|(laika/)|(opendbc/)|(laika_repo/)|(rednose_repo/)|(selfdrive/debug/)/'
+        #args: ['--max-line-length=120']   
+        args:
+        - --max-line-length=120  
+        #- --ignore=E203,W503
+        @- --max-complexity=25     
+        #- --select=F,E112,E113,E304,E502,E701,E702,E703,E71,E72,E731,W191,W6 
+        #- --select=F,E112,E113,E304,E501,E502,E701,E702,E703,E71,E72,E731,W191,W6
+        - --statistics         
+       # args: ['--max-line-length=120','--ignore=E203,W503']            
+        types: [file, python]
+        additional_dependencies:
+          - "flake8-docstrings==1.6.0"
+            exclude: "^docs/" 
+          - "flake8-rst-docstrings"
+          - "flake8-bugbear==23.1.20" # must match requirements-tests.txt
+          - "flake8-noqa==1.3.0" # must match requirements-tests.txt
+          - "flake8-pyi==23.1.2" # must match requirements-tests.txt          
+          - "flake8-bugbear"
+          - "flake8-comprehensions"
+          - "flake8-simplify"
+          - "flake8-comprehensions"
+          - "flake8-mutable"
+          - "flake8-use-fstring"
+      
+
+# isort        
+-   repo: https://github.com/PyCQA/isort
+    rev: 5.12.0
+    hooks:
+    -   id: isort
+        args: ["--profile", "black"]
+      - id: isort
+        name: isort (python)
+      - id: isort
+        name: isort (cython)
+        types: [cython]
+      - id: isort
+        name: isort (pyi)
+        types: [pyi]           
+
+# commitlint
+  - repo: https://github.com/dafyddj/commitlint-pre-commit-hook
+    rev: v2.3.0
+    hooks:
+      - id: commitlint
+        name: Check commit message using commitlint
+        description: Lint commit message against @commitlint/config-conventional rules
+        stages: [commit-msg]
+        additional_dependencies: ['@commitlint/config-conventional@8.3.4']
+      - id: commitlint-travis
+        stages: [manual]
+        additional_dependencies: ['@commitlint/config-conventional@8.3.4']
+        always_run: true
+# shellcheck        
+  - repo: https://github.com/shellcheck-py/shellcheck-py
+    rev: v0.8.0.4
+    hooks:
+      - id: shellcheck
+        name: Check shell scripts with shellcheck
+        files: ^.*\.(sh|bash|ksh)$
+        types: []
+
+
+
+  - repo: https://github.com/adrienverge/yamllint
+    rev: v1.26.3
+    hooks:
+      - id: yamllint
+        name: Check YAML files with yamllint
+        types: [yaml]
+        description: Check YAML files with yamllint
+        entry: yamllint --strict -c .github/linters/.yaml-lint.yml
+        args: [--strict, '.']
+        types: [yaml]
+        files: \.(yaml|yml)$    
+        always_run: true
+        pass_filenames: false
+
+# yamllint        
+  - repo: https://github.com/adrienverge/yamllint
+    rev: v1.26.3
+    hooks:
+      - id: yamllint
+        name: Run yamllint      
+        description: Check YAML files with yamllint
+        entry: yamllint --strict -c .github/linters/.yaml-lint.yml
+        types: [yaml]
+        files: \.(yaml|yml)$          
+        args: [--strict, '.']
+        always_run: true
+        pass_filenames: false
+
+# Commit message hooks #
+
+  # Check that commit message follows basic rules
+  - repo: https://github.com/jorisroovers/gitlint
+    rev: v0.15.1
+    hooks:
+    - id: gitlint
+      name: Check commit message
+
+# Check and fix spelling for commit message 
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.2.2
+    hooks:
+      # Define separate hooks for checking and correcting spelling errors
+      # since codespell doesn't print verbose output when writing changes
+      - id: codespell
+        name: "Check for common misspellings in text files"
+        description: Check spelling with codespell
+        entry: codespell --ignore-words=codespell.txt  
+        args:  #args: ['-L', 'complet,generat']
+          - --exclude-file=package-lock.json
+          - --ignore-words-list=hass,alot,datas,dof,dur,ether,farenheit,hist,iff,iif,ines,ist,lightsensor,mut,nd,pres,referer,rime,ser,serie,te,technik,ue,uint,visability,wan,wanna,withing,iam,incomfort,ba,haa,pullrequests,ans,crate,fo,followings,hist,iff,mater,secant,som,tim
+          - --skip="./.*,*.csv,*.json,./.*,./strings/dictionary.txt,./strings/words.txt,./project_euler/problem_022/p022_names.txt"
+          - --quiet-level=2
+        exclude_types: [csv, json]
+        exclude: |
+          (?x)^(
+              strings/dictionary.txt |
+              '\.gitattributes'|
+              ^tests/fixtures/|
+              strings/words.txt |
+              project_euler/problem_022/p022_names.txt
+          )$        
+      - id: codespell
+        name: Fix spelling
+        exclude: '\.gitattributes'
+        args: ['-L', 'complet,generat', --write-changes]
+        stages: [manual]
+      - id: codespell
+        name: Check commit message spelling
+        stages: [commit-msg]
+      - id: codespell
+        name: Run codespell to check for common misspellings in files
+        entry: bash -c 'echo "If you think that this failure is an error, consider adding the word(s)
+          to the codespell dictionary at docs/spelling_wordlist.txt.
+          The word(s) should be in lowercase." && exec codespell "$@"' --
+        language: python
+        types: [text]
+        exclude: ^RELEASE_NOTES\.txt$|^.css$|^images/.*$
+        args:
+          - --ignore-words=docs/spelling_wordlist.txt
+          - --skip=docs/*/commits.rst,./*/*.rst,*.lock,*.min.js
+          - --exclude-file=.codespellignorelines
+
+
+# flake8        
+ - repo: https://github.com/PyCQA/flake8
+    rev: 6.0.0
+    hooks:
+      - id: flake8
+        name: Lint Python with Flake8
+        require_serial: true      
+        additional_dependencies:
+          - flake8-bandit==3.0.0
+          - flake8-bugbear==22.1.11
+          - flake8-import-order==0.18.1
+          - flake8-requirements==1.5.1           
+          - pycodestyle==2.8.0
+          - pyflakes==2.4.0
+          - flake8-docstrings==1.6.0
+          - pydocstyle==6.1.1
+          - flake8-comprehensions==3.8.0
+          - flake8-noqa==1.2.1
+          - mccabe==0.6.1
+          - dlint == 0.11.0
+          - flake8-2020 == 1.6.0
+          - flake8-pytest-style == 1.5.0
+          - wemake-python-styleguide == 0.15.3
+        files: ^(vadimdor|script|tests)/.+\.py$
+        exclude: "^docs/"
+   
+       
+# bandit        
+  - repo: https://github.com/PyCQA/bandit
+    rev: 1.7.4
+    hooks:
+      - id: bandit
+        name: Lint Python security with Bandit
+        require_serial: true
+        args:   # args: ['-c', '.bandit.yml']
+          - --quiet
+          - --format=custom
+          - --configfile=tests/bandit.yaml
+        files: ^(vadimdor|script|tests)/.+\.py$
+
+          - id: bandit
+
+# Pretty-format YAML
+- repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
+  rev: v2.1.0
+  hooks:
+  - id: pretty-format-yaml
+    name: Format Yaml
+    args: [--autofix, --indent, '2', --preserve-quotes]
+
+
+  # Lint YAML
+  - repo: https://github.com/adrienverge/yamllint.git
+    rev: v1.26.3
+    hooks:
+    - id: yamllint
+      name: Lint Yaml
+      types: [yaml]
+      args: [-s, -f, colored]      
+
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: v3.0.0-alpha.4
+    hooks:
+      - id: prettier
+        types_or: [scss, javascript]   
+        exclude: \.github/workflows/diff_shades\.yml        
+
+
+
+# python-typing      
+  - repo: https://github.com/cdce8p/python-typing-update
+    rev: v0.3.5
+    hooks:
+      # Run `python-typing-update` hook manually from time to time
+      # to update python typing syntax.
+      # Will require manual work, before submitting changes!
+      - id: python-typing-update
+        stages: [manual]
+        args:
+          - --py39-plus
+          - --force
+          - --keep-updates
+        files: ^(vadimdor|tests|script)/.+\.py$
+
+
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v0.991
+    hooks:
+    - id: mypy        
+      exclude: '^(test/)|^(pyextra/)|(cereal/)|(rednose/)|(panda/)|(laika/)|(opendbc/)|(laika_repo/)|(rednose_repo/)/'
+      additional_dependencies: ['git+https://github.com/numpy/numpy-stubs', 'types-requests', 'types-atomicwrites',
+                                  'types-pycurl']
+      args:
+          - --ignore-missing-imports
+          - --install-types  # See mirrors-mypy README.md
+          - --non-interactive
+      files: ^(python/src/|python/tests/)
+       # args: ["--config-file", "python/mypy.ini"]    
+      additional_dependencies:   # [ numpy >= 1.22] 
+          - types-dataclasses >= 0.1.3
+          - types-PyYAML
+          - tomli >= 0.2.6, < 2.0.0
+          - types-typed-ast >= 1.4.1
+          - click >= 8.1.0
+          - packaging >= 22.0
+          - platformdirs >= 2.1.0
+          - pytest
+          - hypothesis  
+          - numpy >= 1.22
+
+
+
+
+  # pyupgrade
+- repo: https://github.com/asottile/pyupgrade
+    rev: v3.3.1
+    hooks:
+      - id: pyupgrade
+        name: Fix Python with Pyupgrade. Upgrade Python code automatically
+        args: ['--py39-plus', '--keep-runtime-typing']
+
+- repo: https://github.com/hakancelik96/unimport
+  rev: '0.8.3'
+  hooks:
+  - id: unimport
+    name: Fix Python with Unimport
+    args: [--remove]
+
+- repo: https://github.com/Lucas-C/pre-commit-hooks
+  rev: v1.1.10
+  hooks:
+  - id: remove-crlf
+    name: Replace CRLF with LF post-Unimport  and post-prettify
+    types: [python, text]
+    exclude_types: [batch]
+
+- repo: https://github.com/asottile/yesqa
+  rev: v1.3.0
+  hooks:
+  - id: yesqa
+    name: Remove unnecessary noqa statements  
+    additional_dependencies:
+      - flake8-bandit==3.0.0
+      - flake8-bugbear==22.1.11
+      - flake8-import-order==0.18.1
+      - flake8-requirements==1.5.1
+      - flake8>=4.0.1
+     exclude: |
+          (?x)
+          ^_vendor/
+
+- repo: https://github.com/asottile/add-trailing-comma
+  rev: v2.1.0
+  hooks:
+  - id: add-trailing-comma
+    args: [--py36-plus]
+
+- repo: https://github.com/pycqa/isort
+  rev: '5.9.3'
+  hooks:
+  - id: isort
+    name: Format Python imports with isort
+
+
+- repo: https://github.com/Lucas-C/pre-commit-hooks-safety
+  rev: v1.2.1
+  hooks:
+  - id: python-safety-dependencies-check
+    name: Run Safety check on dependencies
+    files: 'requirements.txt'
+
+
+- repo: https://github.com/rhysd/actionlint
+  rev: v1.6.23
+  hooks:
+  - id: actionlint-docker
+    args:
+    - -ignore
+    - 'SC2155:'
+    - -ignore
+   # - 'SC2157:'
+   # - -ignore
+    - 'SC2086:'
+    - -ignore
+    - 'SC1004:'
+
+
+- repo: https://github.com/sirosen/check-jsonschema
+  rev: 0.10.0
+  hooks:
+  - id: check-github-actions
+
+- repo: https://github.com/python-jsonschema/check-jsonschema
+  rev: 0.21.0
+  hooks:
+  - id: check-github-actions
+  - id: check-github-workflows  
+
+
+
+- repo: https://github.com/Lucas-C/pre-commit-hooks-markup
+  rev: v1.0.1
+  hooks:
+  - id: rst-linter
+    files: >-
+      ^[^/]+[.]rst$
+    exclude: >-
+      ^CHANGES\.rst$
+
+
+# More general fixers
+- repo: https://github.com/Lucas-C/pre-commit-hooks
+  rev: v1.1.10
+  hooks:
+  - id: forbid-crlf
+  - id: forbid-tabs  
+  - id: remove-tabs
+    name: Replace tabs with spaces
+    types: [text]
+    exclude_types: [svg, batch]
+    args: [--whitespaces-count, '4']  
+   
+- repo: https://github.com/Yelp/detect-secrets
+  rev: v0.12.5
+  hooks:
+    - id: detect-secrets
+      args: ['--baseline', '.secrets.baseline']
+
+- repo: https://github.com/pre-commit/pygrep-hooks
+  rev: v1.10.1
+  hooks:
+    - id: python-no-eval
+    - id: python-check-blanket-noqa
+    - id: python-use-type-annotations   
+    - id: python-check-blanket-type-ignore
+      name: Check blanket type ignore
+    - id: python-check-mock-methods
+      name: Check for bad mock methods
+    - id: python-no-log-warn
+      name: Check if there are no deprecate log warn logger.warn
+    - id: text-unicode-replacement-char
+      name: Check for Unicode replacement chars   
+    - id: rst-backticks
+      name: "Check RST: No single backticks. Pls use double backticks for code"
+      files: '^pep-\d\.txt|\.rst$'
+      types: [text]
+    - id: rst-inline-touching-normal
+      name: "Check RST: No backticks touching text"
+      files: '^pep-\d+\.txt|\.rst$'
+      types: [text]
+    - id: rst-directive-colons
+      name: "Check RST: 2 colons after directives"
+      files: '^pep-\d+\.txt|\.rst$'
+      types: [text]   
+    
+
+  
+ 
+- repo: https://github.com/myint/eradicate
+  rev: 522ed7ce2da82d33b3e2331bf50d4671c5a5af9a  # pragma: allowlist secret
+  hooks:
+    - id: eradicate
+      exclude: ^(docs/conf.py)$
+- repo: https://github.com/myint/docformatter
+  rev: v1.3.1
+  hooks:
+    - id: docformatter
+      args: [--in-place,--wrap-summaries=120,--wrap-descriptions=120]
+
+
+-   repo: https://github.com/asottile/reorder_python_imports
+    rev: v3.8.5
+    hooks:
+    -   id: reorder-python-imports
+        args: [--py36-plus]
+        args: ['--application-directories=python:python/src', --py36-plus]
+
+-   repo: https://github.com/asottile/add-trailing-comma
+    rev: v2.3.0
+    hooks:
+    -   id: add-trailing-comma
+        args: [--py36-plus]
+
+-   repo: https://github.com/asottile/seed-isort-config
+    rev: v1.2.0
+    hooks:
+    -   id: seed-isort-config
+        args: [--application-directories=dict_minimize]
+-   repo: https://github.com/pre-commit/mirrors-isort
+    rev: v4.3.4
+    hooks:
+    -   id: isort
+        language_version: python3
+        args: [-w 120, -m 3, -tc, --project=dict_minimize]
+- repo: https://github.com/jumanjihouse/pre-commit-hooks
+  rev: 1.11.0
+  hooks:
+    - id: require-ascii
+    - id: script-must-have-extension
+    - id: forbid-binary
+# Lint Markdown
+- repo: https://github.com/igorshubovych/markdownlint-cli
+   rev: v0.30.0
+   hooks:
+    - id: markdownlint
+      name: Run markdownlint
+      description: Checks the style of Markdown files
+      entry: markdownlint -c .github/linters/.markdown-lint.yml .
+      types: [markdown]
+      files: \.(md|mdown|markdown)$  
+      args: [--fix]
+
+ 
+
+
+
+
+-   repo: https://github.com/JulienPalard/powrap
+    rev: v0.4.0
+    hooks:
+    -   id: powrap
+
+  - repo: https://github.com/Zac-HD/shed
+  rev: 0.10.9
+  hooks:
+  - id: shed
+    args:
+    - --refactor
+    - --py38-plus
+    types_or:
+    - python
+    - markdown
+    - rst
+
+- repo: https://github.com/jumanjihouse/pre-commit-hook-yamlfmt
+  rev: 0.2.2
+  hooks:
+  - id: yamlfmt
+    args: [--mapping, '2', --sequence, '2', --offset, '0']
+
+
+  - repo: https://github.com/pre-commit/mirrors-eslint
+    rev: v8.34.0
+    hooks:
+      - id: eslint
+        files: \.[jt]s$
+        types: [file]
+
+  - repo: https://github.com/google/yapf
+    rev: v0.32.0
+    hooks:
+      - id: yapf
+        args: ['--in-place', '--parallel']
+
+  - repo: https://github.com/hadialqattan/pycln
+    rev: v2.1.3 # must match requirements-tests.txt
+    hooks:
+      - id: pycln
+        args: [--config=pyproject.toml, stubs, stdlib, tests, scripts]
+
+  - repo: https://github.com/doublify/pre-commit-clang-format
+    rev: 62302476d0da01515660132d76902359bed0f782
+    hooks:
+      - id: clang-format
+        types: [file]
+        files: \.(cc|c|h)$
+        args: ["--style=gnu"]   
+
+  - repo: https://github.com/rubocop-hq/rubocop
+    rev: v1.25.1
+    hooks:
+      - id: rubocop
+        name: Check Ruby files with rubocop
+        args: [--debug]
+        always_run: true
+        pass_filenames: false         
+
+  - repo: https://github.com/myint/rstcheck
+    rev: 3f929574
+    hooks:
+      - id: rstcheck
+        name: Check reST files using rstcheck
+        exclude: 'docs/CHANGELOG.rst'
+
+  - repo: https://github.com/saltstack-formulas/mirrors-rst-lint
+    rev: v1.3.2
+    hooks:
+      - id: rst-lint
+        name: Check reST files using rst-lint
+        exclude: |
+            (?x)^(
+                docs/CHANGELOG.rst|
+                docs/TOFS_pattern.rst|
+            )$
+        additional_dependencies: [pygments==2.9.0]
+
+
+  - repo: https://github.com/LilSpazJoekp/docstrfmt
+    hooks:
+      - id: docstrfmt
+        require_serial: true
+    rev: v1.4.3
+
+
+
+  - repo: https://github.com/ikamensh/flynt/
+    rev: '0.76'
+    hooks:
+      - id: flynt
+        name: Run flynt string format converter for Python      
+        exclude: |
+          (?x)
+          ^_vendor/
+        args:
+         # If flynt detects too long text it ignores it. So we set a very large limit to make it easy
+         # to split the text by hand. Too long lines are detected by flake8 (below),
+         # so the user is informed to take action.
+         - --line-length
+         - '99999'
+         - '-ll'
+         - '1000'
+
+# Pretty-format INI
+- repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
+  rev: v2.1.0
+  hooks:
+  - id: pretty-format-ini
+    name: Format INI
+    types: [ini]
+    args: [--autofix]
+
+
+
+# Add doctoc to Markdown
+- repo: https://github.com/thlorenz/doctoc
+  rev: v2.2.0
+  hooks:
+    - id: pydocstyle
+      name: Run pydocstyle
+      args:
+        - --convention=pep257
+        #- --add-ignore=D100,D102,D103,D104,D105,D107,D205,D400,D401
+      exclude: |
+          (?x)
+          ^tests/.*\.py$|
+          ^scripts/.*\.py$|
+          ^dev|
+          ^provider_packages|
+          ^docker_tests|
+          ^kubernetes_tests|
+          .*example_dags/.*|
+          ^chart/.*\.py$|
+          ^_vendor/
+      additional_dependencies: ['toml']
+    - id: doctoc
+      name: Generate Markdown ToCs and add TOC for md and rst files
+      args: [--maxlevel, '3', --update-only]
+      files:
+          ^CONTRIBUTING\.md$|^README\.md$|^UPDATING.*\.md$|^chart/UPDATING.*\.md$|^dev/.*\.md$|^dev/.*\.rst$
+ 
+
+- repo: https://github.com/pycqa/pydocstyle
+  rev: 6.1.1
+  hooks:
+    - id: pydocstyle
+      files: praw/.*
+
+
+# Format packaging
+- repo: https://github.com/asottile/setup-cfg-fmt
+  rev: v1.20.0
+  hooks:
+  - id: setup-cfg-fmt
+    name: Format packaging with setup-cfg-fmt
+
+
+# Check packaging
+- repo: https://github.com/regebro/pyroma
+  rev: '3.2'
+  hooks:
+  - id: pyroma
+
+- repo: https://github.com/tox-dev/tox-ini-fmt
+  rev: 0.6.1
+  hooks:
+    - id: tox-ini-fmt
+      name: "Format tox.ini"
+
+- repo: https://github.com/sphinx-contrib/sphinx-lint
+  rev: v0.6.7
+  hooks:
+    - id: sphinx-lint
+      name: "Sphinx lint"
+      args: ["--disable=trailing-whitespace"]
+
+- repo: https://github.com/asottile/blacken-docs
+  rev: v1.12.1
+  hooks:
+    - id: blacken-docs
+      name: Run black on python code blocks in documentation files
+      alias: black
+      additional_dependencies: [black==22.3.0]      
+
+ci:
+  autofix_commit_msg: "[pre-commit.ci] auto fixes from pre-commit.com hooks"
+  autofix_prs: true
+  autoupdate_commit_msg: "[pre-commit.ci] pre-commit autoupdate"
+  autoupdate_schedule: quarterly
+  submodules: false  
+  skip:
+  - actionlint-docker 
+  - check-github-actions    
+  - check-changes     
+  - check-github-workflows  
+  - flake8 
+  #   skip: [flake8]
+
+
+

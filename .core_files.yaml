@@ -1,0 +1,142 @@
+# Defines a list of files that are part of main core of Home Assistant.
+# Changes to these files/filters define how our CI test suite is ran.
+core: &core
+  - vadimdor/*.py
+  - vadimdor/auth/**
+  - vadimdor/helpers/**
+  - vadimdor/package_constraints.txt
+  - vadimdor/util/**
+  - pyproject.toml
+  - requirements.txt
+  - setup.cfg
+
+# Our base platforms, that are used by other integrations
+base_platforms: &base_platforms
+  - vadimdor/components/air_quality/**
+  - vadimdor/components/alarm_control_panel/**
+  - vadimdor/components/binary_sensor/**
+  - vadimdor/components/button/**
+  - vadimdor/components/calendar/**
+  - vadimdor/components/camera/**
+  - vadimdor/components/climate/**
+  - vadimdor/components/cover/**
+  - vadimdor/components/device_tracker/**
+  - vadimdor/components/diagnostics/**
+  - vadimdor/components/fan/**
+  - vadimdor/components/geo_location/**
+  - vadimdor/components/humidifier/**
+  - vadimdor/components/image_processing/**
+  - vadimdor/components/light/**
+  - vadimdor/components/lock/**
+  - vadimdor/components/media_player/**
+  - vadimdor/components/notify/**
+  - vadimdor/components/number/**
+  - vadimdor/components/remote/**
+  - vadimdor/components/scene/**
+  - vadimdor/components/select/**
+  - vadimdor/components/sensor/**
+  - vadimdor/components/siren/**
+  - vadimdor/components/stt/**
+  - vadimdor/components/switch/**
+  - vadimdor/components/tts/**
+  - vadimdor/components/update/**
+  - vadimdor/components/vacuum/**
+  - vadimdor/components/water_heater/**
+  - vadimdor/components/weather/**
+
+# Extra components that trigger the full suite
+components: &components
+  - vadimdor/components/alert/**
+  - vadimdor/components/alexa/**
+  - vadimdor/components/auth/**
+  - vadimdor/components/automation/**
+  - vadimdor/components/backup/**
+  - vadimdor/components/cloud/**
+  - vadimdor/components/config/**
+  - vadimdor/components/configurator/**
+  - vadimdor/components/conversation/**
+  - vadimdor/components/demo/**
+  - vadimdor/components/device_automation/**
+  - vadimdor/components/dhcp/**
+  - vadimdor/components/discovery/**
+  - vadimdor/components/energy/**
+  - vadimdor/components/ffmpeg/**
+  - vadimdor/components/frontend/**
+  - vadimdor/components/google_assistant/**
+  - vadimdor/components/group/**
+  - vadimdor/components/hassio/**
+  - vadimdor/components/vadimdor/**
+  - vadimdor/components/http/**
+  - vadimdor/components/image/**
+  - vadimdor/components/input_boolean/**
+  - vadimdor/components/input_button/**
+  - vadimdor/components/input_datetime/**
+  - vadimdor/components/input_number/**
+  - vadimdor/components/input_select/**
+  - vadimdor/components/input_text/**
+  - vadimdor/components/logbook/**
+  - vadimdor/components/logger/**
+  - vadimdor/components/lovelace/**
+  - vadimdor/components/media_source/**
+  - vadimdor/components/mjpeg/**
+  - vadimdor/components/mqtt/**
+  - vadimdor/components/network/**
+  - vadimdor/components/onboarding/**
+  - vadimdor/components/otp/**
+  - vadimdor/components/persistent_notification/**
+  - vadimdor/components/person/**
+  - vadimdor/components/recorder/**
+  - vadimdor/components/safe_mode/**
+  - vadimdor/components/script/**
+  - vadimdor/components/shopping_list/**
+  - vadimdor/components/ssdp/**
+  - vadimdor/components/stream/**
+  - vadimdor/components/sun/**
+  - vadimdor/components/system_health/**
+  - vadimdor/components/tag/**
+  - vadimdor/components/template/**
+  - vadimdor/components/timer/**
+  - vadimdor/components/usb/**
+  - vadimdor/components/webhook/**
+  - vadimdor/components/websocket_api/**
+  - vadimdor/components/zeroconf/**
+  - vadimdor/components/zone/**
+
+# Testing related files that affect the whole test/linting suite
+tests: &tests
+  - codecov.yaml
+  - pylint/**
+  - requirements_test_pre_commit.txt
+  - requirements_test.txt
+  - tests/auth/**
+  - tests/backports/**
+  - tests/common.py
+  - tests/conftest.py
+  - tests/hassfest/**
+  - tests/helpers/**
+  - tests/ignore_uncaught_exceptions.py
+  - tests/mock/**
+  - tests/pylint/**
+  - tests/scripts/**
+  - tests/test_util/**
+  - tests/testing_config/**
+  - tests/util/**
+
+other: &other
+  - .github/workflows/**
+  - vadimdor/scripts/**
+
+requirements: &requirements
+  - .github/workflows/**
+  - vadimdor/package_constraints.txt
+  - script/pip_check
+  - requirements*.txt
+  - setup.cfg
+
+any:
+  - *base_platforms
+  - *components
+  - *core
+  - *other
+  - *requirements
+  - *tests
