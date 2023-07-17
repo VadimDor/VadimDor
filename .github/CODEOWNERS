@@ -118,8 +118,4 @@
 *.tex @vadimdor
 *.TEX @vadimdor
 # No more individual file types for now
-# File info
-# File type: codeowners file (CODEOWNERS)
-# File version: 1 (2023, Wednesday, December 29th at 5:20 pm)
-# Line count (including blank lines and compiler line): 126
-# End of script
+
